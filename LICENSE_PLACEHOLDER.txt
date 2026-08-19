@@ -1,0 +1,14 @@
+LICENSE PLACEHOLDER
+===================
+
+Department of Applied Aeronautical Engineering
+Omni Recycling — Malfunction Resolution Engine
+
+No public open-source license has been selected yet.
+
+Do not treat this repository as MIT, Apache-2.0, GPL, or any other
+standard public license until a LICENSE file is added by the rights holder.
+
+Proprietary documentation and processed knowledge remain the property of
+their respective owners. Define the license before making the repository
+public.

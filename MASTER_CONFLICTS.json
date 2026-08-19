@@ -1,0 +1,498 @@
+{
+  "count": 12,
+  "resolution_policy": "NEVER auto-resolve",
+  "records": [
+    {
+      "conflict_id": "CFL:PRESSURE_SCOPE",
+      "subject": "DIFFERENT_PARAMETERS_OR_VALUES",
+      "values": [
+        "5000(psi) (325 BAR)",
+        "2500psi /172 Bar .. 4800psi /330 Bar"
+      ],
+      "sources": [
+        {
+          "original_value": "5000(psi) (325 BAR)",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Equipment Specifications",
+          "page": 2,
+          "confidence": "HIGH",
+          "source_text": "5000(psi) (325 BAR)",
+          "parameter": "Normal Pressure / Max (PSI)"
+        },
+        {
+          "original_value": "2500psi /172 Bar .. 4800psi /330 Bar",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating system_Linear Baler PL3 & PL6_.pdf",
+          "page": 57,
+          "confidence": "HIGH",
+          "source_text": "1 | Maximum Tunnel Pressure | 2500psi /172 Bar | 4800psi /330 Bar | Ram's maximum pressure on the material when moving forward. To control this pressure on the bale, the tunnel’s cylinder is used. It will close to allow reaching the desired pressure and will open if the desired pressure has been exceeded.",
+          "parameter": "Maximum Tunnel Pressure"
+        }
+      ],
+      "pages": [
+        2,
+        57
+      ],
+      "status": "CONFLICT_DETECTED",
+      "resolution": null,
+      "note": "No se decide cuál es correcto. Pueden ser parámetros distintos (presión nominal de ficha vs Maximum Tunnel Pressure de receta).",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:NAMING:MTRP1_MTRP2",
+      "subject": "NAMING_VARIANT",
+      "values": [
+        "MTRP1 & 2",
+        "MTRP1, MTRP2"
+      ],
+      "sources": [
+        {
+          "original_value": "MTRP1 & 2",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "group_notation"
+        },
+        {
+          "original_value": "MTRP1, MTRP2",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System V2",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "split_tags"
+        }
+      ],
+      "pages": [
+        4,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "El manual usa notación de grupo. Los tags individuales son desglose documental, no un componente extra inventado.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:NAMING:HTR1_HTR2",
+      "subject": "NAMING_VARIANT",
+      "values": [
+        "HTR1 & 2",
+        "HTR1, HTR2"
+      ],
+      "sources": [
+        {
+          "original_value": "HTR1 & 2",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "group_notation"
+        },
+        {
+          "original_value": "HTR1, HTR2",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System V2",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "split_tags"
+        }
+      ],
+      "pages": [
+        4,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "El manual usa notación de grupo. Los tags individuales son desglose documental, no un componente extra inventado.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:NAMING:PV1_PV3",
+      "subject": "NAMING_VARIANT",
+      "values": [
+        "PV1 & 3",
+        "PV1, PV3"
+      ],
+      "sources": [
+        {
+          "original_value": "PV1 & 3",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "group_notation"
+        },
+        {
+          "original_value": "PV1, PV3",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System V2",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "split_tags"
+        }
+      ],
+      "pages": [
+        4,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "El manual usa notación de grupo. Los tags individuales son desglose documental, no un componente extra inventado.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:NAMING:PC1_PC2_PC3",
+      "subject": "NAMING_VARIANT",
+      "values": [
+        "PC1-3",
+        "PC1, PC2, PC3"
+      ],
+      "sources": [
+        {
+          "original_value": "PC1-3",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "group_notation"
+        },
+        {
+          "original_value": "PC1, PC2, PC3",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System V2",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "split_tags"
+        }
+      ],
+      "pages": [
+        4,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "El manual usa notación de grupo. Los tags individuales son desglose documental, no un componente extra inventado.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:NAMING:LZ1_LZ2",
+      "subject": "NAMING_VARIANT",
+      "values": [
+        "LZ1-2",
+        "LZ1, LZ2"
+      ],
+      "sources": [
+        {
+          "original_value": "LZ1-2",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "group_notation"
+        },
+        {
+          "original_value": "LZ1, LZ2",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System V2",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "split_tags"
+        }
+      ],
+      "pages": [
+        4,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "El manual usa notación de grupo. Los tags individuales son desglose documental, no un componente extra inventado.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:NAMING:PX1_PX2",
+      "subject": "NAMING_VARIANT",
+      "values": [
+        "PX1-2",
+        "PX1, PX2"
+      ],
+      "sources": [
+        {
+          "original_value": "PX1-2",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "group_notation"
+        },
+        {
+          "original_value": "PX1, PX2",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System V2",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "split_tags"
+        }
+      ],
+      "pages": [
+        4,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "El manual usa notación de grupo. Los tags individuales son desglose documental, no un componente extra inventado.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:NAMING:SD1_SD2_SD3",
+      "subject": "NAMING_VARIANT",
+      "values": [
+        "SD1-3X",
+        "SD1, SD2, SD3"
+      ],
+      "sources": [
+        {
+          "original_value": "SD1-3X",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "group_notation"
+        },
+        {
+          "original_value": "SD1, SD2, SD3",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System V2",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "split_tags"
+        }
+      ],
+      "pages": [
+        4,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "El manual usa notación de grupo. Los tags individuales son desglose documental, no un componente extra inventado.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:NAMING:ES1_ES2",
+      "subject": "NAMING_VARIANT",
+      "values": [
+        "ES1-2X",
+        "ES1, ES2"
+      ],
+      "sources": [
+        {
+          "original_value": "ES1-2X",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "group_notation"
+        },
+        {
+          "original_value": "ES1, ES2",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System V2",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "split_tags"
+        }
+      ],
+      "pages": [
+        4,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "El manual usa notación de grupo. Los tags individuales son desglose documental, no un componente extra inventado.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:NAMING:PX44_PX4B",
+      "subject": "NAMING_VARIANT",
+      "values": [
+        "PX44 & PX4B",
+        "PX44, PX4B"
+      ],
+      "sources": [
+        {
+          "original_value": "PX44 & PX4B",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "group_notation"
+        },
+        {
+          "original_value": "PX44, PX4B",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System V2",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "split_tags"
+        }
+      ],
+      "pages": [
+        4,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "El manual usa notación de grupo. Los tags individuales son desglose documental, no un componente extra inventado.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:OIL_SOURCES",
+      "subject": "MULTIPLE_OIL_REFERENCES",
+      "values": [
+        "Grade 32",
+        "General Maintenance oil sections/tables"
+      ],
+      "sources": [
+        {
+          "original_value": "Grade 32",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Equipment Specifications",
+          "page": 2,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "Recommended oil"
+        },
+        {
+          "original_value": "General Maintenance oil sections/tables",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "General maintenance_.pdf",
+          "page": 19,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "oil"
+        }
+      ],
+      "pages": [
+        2,
+        19
+      ],
+      "status": "INCOMPLETE_OR_DIFFERENT_SCOPE",
+      "resolution": null,
+      "note": "Ficha Grade 32 y tablas de General Maintenance no se unifican. No se elige un aceite.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    },
+    {
+      "conflict_id": "CFL:MOTOR_DESCRIPTION",
+      "subject": "SAME_THEME_DIFFERENT_WORDING",
+      "values": [
+        "2 X 75hp",
+        "MTRP1 & 2: 75hp Main Motor for pumps"
+      ],
+      "sources": [
+        {
+          "original_value": "2 X 75hp",
+          "normalized_value": null,
+          "unit_original": "HP",
+          "unit_normalized": null,
+          "source": "Equipment Specifications",
+          "page": 2,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "Motor (HP)"
+        },
+        {
+          "original_value": "MTRP1 & 2: 75hp Main Motor for pumps",
+          "normalized_value": null,
+          "unit_original": null,
+          "unit_normalized": null,
+          "source": "Operating System",
+          "page": 4,
+          "confidence": "HIGH",
+          "source_text": null,
+          "parameter": "MTRP1/MTRP2"
+        }
+      ],
+      "pages": [
+        2,
+        4
+      ],
+      "status": "VARIANT_DETECTED",
+      "resolution": null,
+      "note": "Se conservan ambas redacciones. No se convierte 2 X 75hp en otra cifra.",
+      "origin": "DIAGNOSTIC_ENGINE_V9/CONFLICT_ENGINE",
+      "evidence_id": "EV_a24211d44a42"
+    }
+  ]
+}

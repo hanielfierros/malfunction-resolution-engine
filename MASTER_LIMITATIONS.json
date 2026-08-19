@@ -1,0 +1,11 @@
+{
+  "rules": [
+    "Tag != failed component",
+    "Page reference != electrical continuity",
+    "TEXT_LABEL != electrical connection",
+    "Semantic match != confirmed component",
+    "Hint != diagnosis",
+    "Documented procedure != authorization",
+    "Specs = identification context, not fault evidence"
+  ]
+}

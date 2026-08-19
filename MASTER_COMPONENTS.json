@@ -1,0 +1,756 @@
+{
+  "count": 41,
+  "records": [
+    {
+      "entity_id": "COMPONEN_76e4b4373618",
+      "entity_type": "COMPONENT",
+      "canonical_name": "LZ1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c",
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        59,
+        4
+      ],
+      "evidence_ids": [
+        "EV_a17b5f4902b9",
+        "EV_5b1a6ee13513"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_376c08b77831",
+      "entity_type": "COMPONENT",
+      "canonical_name": "LZ2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c",
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        59,
+        4
+      ],
+      "evidence_ids": [
+        "EV_cfdb67b68585",
+        "EV_ce84565e6798"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_dde68f343759",
+      "entity_type": "COMPONENT",
+      "canonical_name": "AS1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_9d5d15761de3"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_2ac9d6e08181",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PX1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c",
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        60,
+        4
+      ],
+      "evidence_ids": [
+        "EV_0722642eb726",
+        "EV_3ba2e1983bda"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_eb923313684d",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PX2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c",
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        60,
+        4
+      ],
+      "evidence_ids": [
+        "EV_c9af13c34752",
+        "EV_c42cdb738db2"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_3e63368a8c30",
+      "entity_type": "COMPONENT",
+      "canonical_name": "B-420",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61,
+        62
+      ],
+      "evidence_ids": [
+        "EV_7f0268e43e24"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_51d695ac1163",
+      "entity_type": "COMPONENT",
+      "canonical_name": "JBTS1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_95ed6507bee0"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_f6c143a5e789",
+      "entity_type": "COMPONENT",
+      "canonical_name": "MCC13",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_e3d60c213972"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_0dba059a608a",
+      "entity_type": "COMPONENT",
+      "canonical_name": "MCR1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_a04ad31240ae"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_c0029df8b41c",
+      "entity_type": "COMPONENT",
+      "canonical_name": "MCR2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_0906daff0c21"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_f5e3d313ce65",
+      "entity_type": "COMPONENT",
+      "canonical_name": "DMCR1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_3196a9199411"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_7e6a769a5a90",
+      "entity_type": "COMPONENT",
+      "canonical_name": "DMCR2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_985cbcea9947"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_057d9ad470c9",
+      "entity_type": "COMPONENT",
+      "canonical_name": "MCP1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_817bddbfb983"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_44b88e635411",
+      "entity_type": "COMPONENT",
+      "canonical_name": "MPC2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_c093d932661e"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_08546f3e09ec",
+      "entity_type": "COMPONENT",
+      "canonical_name": "LZ3",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_cbee7cad44f1"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_8d1a5b93e942",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PUB2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_6091c534c079"
+      ],
+      "confidence": "MEDIUM",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": "Componente mencionado. No confirmado como falla."
+    },
+    {
+      "entity_id": "COMPONEN_fdbd7a0a7574",
+      "entity_type": "COMPONENT",
+      "canonical_name": "ES1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_9808290dcba6"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_50d19bc1def9",
+      "entity_type": "COMPONENT",
+      "canonical_name": "ES2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_323bdd98a9df"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_17b6e667411f",
+      "entity_type": "COMPONENT",
+      "canonical_name": "HTR1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_83c7b7c7c2c9"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_9c5888d5363b",
+      "entity_type": "COMPONENT",
+      "canonical_name": "HTR2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_488a791b0b69"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_cee5c4f00785",
+      "entity_type": "COMPONENT",
+      "canonical_name": "JB1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_bb450a9f4815"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_d0441a380821",
+      "entity_type": "COMPONENT",
+      "canonical_name": "JBPU",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_310cfca5ab51"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_52fe6103c301",
+      "entity_type": "COMPONENT",
+      "canonical_name": "LVL1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_8b6e7d367fef"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_d027196bddc3",
+      "entity_type": "COMPONENT",
+      "canonical_name": "MTRCO1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_c80f27b55dbc"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_0d426084c020",
+      "entity_type": "COMPONENT",
+      "canonical_name": "MTRP1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_ec78323b66a7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_593828d3b79d",
+      "entity_type": "COMPONENT",
+      "canonical_name": "MTRP2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_0aeed112038d"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_b5062e7e412f",
+      "entity_type": "COMPONENT",
+      "canonical_name": "MTRP3",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_69bbef210976"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_31e5e0bd81d0",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PC1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_481491f4034b"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_546c50498769",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PC2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_2456419bf3a7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_665cc997e3b4",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PC3",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_3e588ba2b573"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_061cca5adce9",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PCJAM",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_5ad5c8e558e2"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_34a0ff46f9f7",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PSW_RF1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_0b48838c4344"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_557b7d42395d",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PV1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_69606aac4a91"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_956b1df08b22",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PV3",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_a40cb1fe4072"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_c6e85b43e269",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PX44",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_0b383ad98f64"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_622ce4a02282",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PX4B",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_c5a211fc2a51"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_a1dddbc98da1",
+      "entity_type": "COMPONENT",
+      "canonical_name": "PX5",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_4a63ef9714bd"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_fd939a7e143d",
+      "entity_type": "COMPONENT",
+      "canonical_name": "SD1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_a1669bce08c5"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_8851f4c91907",
+      "entity_type": "COMPONENT",
+      "canonical_name": "SD2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_19738a7bdfed"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_e0f6f339bff5",
+      "entity_type": "COMPONENT",
+      "canonical_name": "SD3",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_84f2f5eae5c5"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    },
+    {
+      "entity_id": "COMPONEN_b7bd98d86985",
+      "entity_type": "COMPONENT",
+      "canonical_name": "TT1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_65ffa0df66a4"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_3b650b0adffc"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED_REFERENCE",
+      "notes": null
+    }
+  ]
+}

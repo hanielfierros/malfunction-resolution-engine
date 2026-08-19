@@ -1,0 +1,106 @@
+GITHUB SOURCE AUDIT
+malfunction-resolution-engine
+Generated: 2026-08-19
+Source root: C:\Users\hanie\OneDrive\Documentos Varios Mx An\0 Eben Ezer Aviation\Omni\IA to PLC
+PWA currently used backend: PROCESADOS\GLOBAL_KNOWLEDGE_BASE\DIAGNOSTIC_ENGINE_V15\BACKEND\36_BUILD_BACKEND.py
+  (loaded by PWA start.py; identical SHA-256 to DIAGNOSTIC_ENGINE_FINAL\backend\36_BUILD_BACKEND.py)
+
+CANONICAL RUNTIME CHAIN (do not rebuild)
+========================================
+PWA  ->  POST /query  ->  36 BackendService
+  ->  35 Conversation
+    ->  34 ResponseController
+      ->  33 EvidenceComposer
+        ->  32 QueryEngine
+          ->  MASTER_CONSULTATION_LAYER_RUN_20260818_214934\*.json
+
+Python: 3.14.6 local (stdlib only: json, pathlib, http.server, hashlib, uuid, re, importlib)
+Third-party: NONE
+PDFs / OCR / embeddings: NOT used at runtime
+
+================================================================================
+FILE | ORIGINAL LOCATION | FUNCTION | VERSION | PRODUCTION | HISTORICAL | DOCS | TEST | RUNTIME | DEPENDENCIES | RELATION TO FINAL_KNOWLEDGE_BASE
+================================================================================
+
+--- LIVE BACKEND (PWA) ---
+36_BUILD_BACKEND.py | PROCESADOS\GLOBAL_KNOWLEDGE_BASE\DIAGNOSTIC_ENGINE_V15\BACKEND | HTTP API: /health /query /reset /status /entity /alarm /document /page | V15 / FINAL identical | YES | no | no | yes (embedded) | YES | V14 Conversation; MASTER entities/alarms/pages/registry | Serves FKB-derived MASTER consultation, never FKB JSON directly
+server.py | ...\DIAGNOSTIC_ENGINE_V15\BACKEND | launcher for 36 | V15 | YES (pattern) | no | no | no | YES | 36_BUILD_BACKEND.py | same
+api_routes.json | ...\DIAGNOSTIC_ENGINE_V15\BACKEND | route list | V15 | docs | no | yes | no | no | none | none
+README_BACKEND.md | ...\DIAGNOSTIC_ENGINE_V15\BACKEND | backend readme | V15 | docs | no | yes | no | no | none | none
+validation_tests.json | ...\DIAGNOSTIC_ENGINE_V15\BACKEND | last V15 self-test | V15 | no | yes | no | yes | no | none | none
+
+--- RUNTIME ENGINE MODULES (identical in FINAL packaging) ---
+35_BUILD_CONVERSATION_CONTEXT.py | DIAGNOSTIC_ENGINE_V14\CONVERSATION_CONTEXT and FINAL\context | follow-up context; user claims != facts | V14 / FINAL | YES | no | no | yes | YES | V13 ResponseController | uses MASTER hits only
+34_BUILD_RESPONSE_CONTROLLER.py | DIAGNOSTIC_ENGINE_V13\RESPONSE_CONTROLLER and FINAL\safety | documentary reply + SAFETY_BLOCK | V13 / FINAL | YES | no | no | yes | YES | V12 EvidenceComposer | safety not from FKB files; flags always false
+33_BUILD_EVIDENCE_COMPOSER.py | DIAGNOSTIC_ENGINE_V12\EVIDENCE_COMPOSER and FINAL\evidence | ranks evidence; does not converse | V12 / FINAL | YES | no | no | yes | YES | V11 QueryEngine + MASTER_EVIDENCE/PAGES/TRACE/REGISTRY | evidence is MASTER, compiled from FKB
+32_BUILD_QUERY_ENGINE.py | DIAGNOSTIC_ENGINE_V11\QUERY_ENGINE and FINAL\query_engine | free text -> structured hits | V11 / FINAL | YES | no | no | yes | YES | MASTER_QUERY_INDEX, ALARMS, TAGS, CONFLICTS, ELECTRICAL | query index built from MASTER/FKB
+
+--- CANONICAL DATA: MASTER_CONSULTATION_LAYER_RUN_20260818_214934 ---
+MASTER_QUERY_INDEX.json | MASTER_CONSULTATION_LAYER_RUN_20260818_214934 | query lookup | stage 31 run | YES | no | no | no | YES | none | compiled consultation over FKB
+MASTER_ALARMS.json | same | alarm records | stage 31 | YES | no | no | no | YES | none | FKB ALARMS successor
+MASTER_TAGS.json | same | tag records | stage 31 | YES | no | no | no | YES | none | FKB TAGS successor
+MASTER_CONFLICTS.json | same | documentary conflicts | stage 31 | YES | no | no | no | YES | none | FKB EVIDENCE/conflict successor
+MASTER_ELECTRICAL_REFERENCES.json | same | electrical page refs (not continuity) | stage 31 | YES | no | no | no | YES | none | FKB ELECTRICAL successor
+MASTER_EVIDENCE.json | same | evidence packages | stage 31 | YES | no | no | no | YES | none | FKB EVIDENCE successor
+MASTER_PAGES.json | same | page records | stage 31 | YES | no | no | no | YES | none | FKB pages
+TRACEABILITY_INDEX.json | same | entity lineage | stage 31 | YES | no | no | no | YES | none | FKB traceability
+SOURCE_REGISTRY.json | same | document registry (contains Windows source_path) | stage 31 | YES after sanitize | no | no | no | YES | none | lists FKB + processed JSON sources
+MASTER_ENTITIES.json | same | entity lookup for GET /entity | stage 31 | YES | no | no | no | YES | none | FKB entity union
+MASTER_SYMPTOMS.json | same | symptom index | stage 31 | YES (layer completeness) | no | no | no | no (not loaded by 32/33) | none | FKB SYMPTOMS
+MASTER_PROCEDURES.json | same | documented procedures | stage 31 | YES (layer completeness) | no | no | no | no | none | FKB procedures
+MASTER_COMPONENTS.json | same | components | stage 31 | YES (layer completeness) | no | no | no | no | none | FKB COMPONENTS
+MASTER_DOCUMENTS.json | same | document list (Windows paths) | stage 31 | YES after sanitize | no | no | no | no | none | duplicate-ish of SOURCE_REGISTRY
+MASTER_LIMITATIONS.json | same | limitations | stage 31 | YES | no | no | no | no | none | FKB SAFETY
+MASTER_MAINTENANCE.json | same | maintenance concepts | stage 31 | YES | no | no | no | no | none | FKB MAINTENANCE
+MASTER_SPECS.json | same | specs | stage 31 | YES | no | no | no | no | none | FKB SPECS
+MASTER_INDEX.json | same | counts + run path (Windows) | stage 31 | YES after sanitize | no | no | no | no | none | FKB FINAL_MASTER_INDEX analog
+MASTER_STATISTICS.json | same | stats (Windows paths) | stage 31 | YES after sanitize | no | no | no | no | none | FKB reports analog
+README_MASTER_CONSULTATION.md | same | layer readme | stage 31 | docs | no | yes | no | no | none | none
+REPORT\validation_report.json | same\REPORT | stage 31 validation | stage 31 | docs | no | yes | yes | no | none | FKB validation analog
+
+MASTER_CONSULTATION_LAYER\ (non-RUN) | PROCESADOS\GLOBAL_KNOWLEDGE_BASE\MASTER_CONSULTATION_LAYER | earlier/same layer files + builder 31_BUILD_MASTER_CONSULTATION.py | stage 31 source tree | no | yes (duplicate of RUN data) | yes | no | no | FKB | builder input; PWA does not load this folder
+
+--- FINAL_KNOWLEDGE_BASE (package, not live import) ---
+FINAL_KNOWLEDGE_BASE\** | PROCESADOS\GLOBAL_KNOWLEDGE_BASE\FINAL_KNOWLEDGE_BASE | validated knowledge package (alarms, tags, symptoms, routes, safety, SHA256) | stage 30 | no as live import | no (canonical package) | yes | yes | NO — QueryEngine does not open these files | built from V1–V10 + processed PDFs | THIS is FINAL_KNOWLEDGE_BASE
+30_BUILD_FINAL_KNOWLEDGE_PACKAGE.py / 99_FINAL_VALIDATION_RELEASE.py | FINAL_KNOWLEDGE_BASE | builders | stage 30 | no | yes | no | no | no | previous indexes | generate FKB
+
+--- DIAGNOSTIC_ENGINE_FINAL (packaging of V11–V16 + docs) ---
+DIAGNOSTIC_ENGINE_FINAL\backend\36_BUILD_BACKEND.py | FINAL\backend | same bytes as V15 | FINAL | already listed | snapshot | yes | yes | same as V15 | same | wrapper around MASTER
+DIAGNOSTIC_ENGINE_FINAL\documentation\*.md | FINAL\documentation | API, safety, architecture, install, user guide | FINAL | docs (copy selected) | no | yes | no | no | none | describes FKB-backed engine
+DIAGNOSTIC_ENGINE_FINAL\interface\** | FINAL\interface | old local UI | V16 | NO (PWA is separate repo) | yes | no | no | no | backend :8765 | none
+DIAGNOSTIC_ENGINE_FINAL\launcher\*.bat | FINAL\launcher | Windows launchers | FINAL | no | yes | no | no | no | hardcoded local paths | none
+
+--- HISTORICAL ENGINES V1–V10 (do not copy trees) ---
+DIAGNOSTIC_ENGINE\ | GKB\DIAGNOSTIC_ENGINE | V1 indexes | V1 | no | YES | yes | yes | no | processed extracts | first FKB inputs
+DIAGNOSTIC_ENGINE_V2\ | GKB\V2 | electrical evidence | V2 | no | YES | yes | yes | no | V1 | FKB electrical
+DIAGNOSTIC_ENGINE_V3\ELECTRICAL_PAGE_RANKING | GKB\V3 | page ranking | V3 | no | YES | yes | yes | no | V2 | FKB electrical pages
+DIAGNOSTIC_ENGINE_V4\ALARM_CENTERED_NAVIGATION | GKB\V4 | alarm navigation | V4 | no | YES | yes | yes | no | V3 | FKB ALARMS/ROUTES
+DIAGNOSTIC_ENGINE_V5\SYMPTOM_NAVIGATION | GKB\V5 | symptom nav | V5 | no | YES | yes | yes | no | V4 | FKB SYMPTOMS
+DIAGNOSTIC_ENGINE_V6\CONSOLIDATED_RESPONSE | GKB\V6 | consolidated response | V6 | no | YES | yes | yes | no | V5 | FKB routes
+DIAGNOSTIC_ENGINE_V7\UNIFIED_RETRIEVAL | GKB\V7 | unified retrieval | V7 | no | YES | yes | yes | no | V6 | retrieval later compiled into MASTER_QUERY_INDEX
+DIAGNOSTIC_ENGINE_V8\QUERY_ORCHESTRATOR | GKB\V8 | orchestrator | V8 | no | YES | yes | yes | no | V7 | superseded by V11–V13
+DIAGNOSTIC_ENGINE_V9\CONFLICT_ENGINE | GKB\V9 | conflicts | V9 | no | YES | yes | yes | no | V8 | compiled into MASTER_CONFLICTS
+DIAGNOSTIC_ENGINE_V10\SAFETY_GUARDRAILS | GKB\V10 | safety rules JSON + 29_BUILD | V10 | no (rules inlined in V13) | YES | yes | yes | no | V9 | safety_rules.json not imported at runtime
+19–21_*.py and root GKB indexes | GKB root | global index builders | stages 19–21 | no | YES | no | no | no | processed PDFs | FKB precursors
+
+--- V16 / PWA (out of this repo) ---
+DIAGNOSTIC_ENGINE_V16\INTERFACE | GKB\V16 | old interface | V16 | no | yes | no | no | no | V15 :8765 | none
+PWA Maintenance TS\ | IA to PLC\PWA Maintenance TS | production PWA | PWA | separate GitHub repo | no | no | no | no | HTTPS API only | must NOT read FKB JSON
+
+--- OMIT FROM GITHUB ENGINE REPO ---
+Original PDFs under Material Omni
+OCR / drawings / SVGs / electrical page PNGs
+__pycache__, *.pyc
+conversation_log.json (runtime output)
+All V1–V10 trees
+MASTER_CONSULTATION_LAYER builder (31_*.py)
+FINAL_KNOWLEDGE_BASE builders and duplicate JSON trees
+Interface HTML/JS/CSS
+start.py of the PWA (belongs to PWA repo)
+Personal Windows paths inside JSON (sanitize copies)
+
+DECISION
+========
+Canonical production source = DIAGNOSTIC_ENGINE_FINAL modules (byte-identical to V11–V15) + MASTER_CONSULTATION_LAYER_RUN_20260818_214934.
+FINAL_KNOWLEDGE_BASE remains the validated package that MASTER was built from; it is NOT opened by the live API.
+Copy a production slice only. Sanitize Windows paths in copies. Do not modify originals.

@@ -1,0 +1,329 @@
+{
+  "generated": "2026-08-19T07:59:31.766808+00:00",
+  "generator": "Department of Applied Aeronautical Engineering",
+  "root": "malfunction-resolution-engine",
+  "files": [
+    {
+      "file": ".env.example",
+      "sha256": "634a3e09c04cd25ae7ba6a8b994047f38e8def87867b0f3b450f2b21e815bf5a",
+      "size": 283,
+      "category": "documentation",
+      "runtime_required": false
+    },
+    {
+      "file": ".gitignore",
+      "sha256": "c1fcf30a26148bd85926b4cb8e232c0d26c664da0b92430d60e6b5fff74040ac",
+      "size": 342,
+      "category": "deploy_or_test",
+      "runtime_required": false
+    },
+    {
+      "file": "32_BUILD_QUERY_ENGINE.py",
+      "sha256": "60bb0aad8cff922c3871da404e2d03ea9e0bace8ada9790149557143e638179d",
+      "size": 14804,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "33_BUILD_EVIDENCE_COMPOSER.py",
+      "sha256": "7b63ab608ddafc48c7dc75f81b6719cec01d48589e6ddea848a8a7e50c6960db",
+      "size": 12860,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "34_BUILD_RESPONSE_CONTROLLER.py",
+      "sha256": "e00222e288d6348cbeabf05c1fe244a0db7a9b471af02de5230ed0c8c8264f21",
+      "size": 12761,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "35_BUILD_CONVERSATION_CONTEXT.py",
+      "sha256": "ded5a8b2ae7baaf54b1ccf8b766aa64198a0efd4286745232aca8c6bbf8ecb99",
+      "size": 9228,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "36_BUILD_BACKEND.py",
+      "sha256": "fce282184b25793a1256fe1fe2f3b1ecb47cab2595713e2f90d45e3c9663f5ae",
+      "size": 11951,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "api.py",
+      "sha256": "604979b22c0e7b98a4edb48fd4391edaafa429be9baaed03bf910d2ad12caa13",
+      "size": 302,
+      "category": "deploy_or_test",
+      "runtime_required": false
+    },
+    {
+      "file": "API_DOCUMENTATION.md",
+      "sha256": "1a04d15625acab8279b9be81b2ead0b014b0cc8ed81629cdf177d43d70bbab1c",
+      "size": 123,
+      "category": "documentation",
+      "runtime_required": false
+    },
+    {
+      "file": "config.py",
+      "sha256": "d6535d3084aefc61bf3e73343de253b5ebfce86c194e5baf7fd63883f1b75239",
+      "size": 1224,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "DESTINATION_PREVIOUS_CONTENT.txt",
+      "sha256": "0a40f3fa2a156019a7d199c671b9711cb942a78c220627a34fa402123a57720a",
+      "size": 347,
+      "category": "audit",
+      "runtime_required": false
+    },
+    {
+      "file": "GITHUB_SOURCE_AUDIT.txt",
+      "sha256": "62f4514cae57ae86c9de2b6c20ad524e0f68044b40db71e7c29e5b40b6f25565",
+      "size": 10058,
+      "category": "audit",
+      "runtime_required": false
+    },
+    {
+      "file": "health.py",
+      "sha256": "6a202f287897385744775fbab0590c3cf90e9143893b60d66b9c075684b6ae36",
+      "size": 267,
+      "category": "deploy_or_test",
+      "runtime_required": false
+    },
+    {
+      "file": "LICENSE_PLACEHOLDER.txt",
+      "sha256": "0e151d6fb7556427a93cc7dbff94ee693e3b27e4055c81326c2d6f4c6a1c6140",
+      "size": 490,
+      "category": "documentation",
+      "runtime_required": false
+    },
+    {
+      "file": "main.py",
+      "sha256": "f3a549858c72be615cf594a98eae8605d71bca278e4481fd8bbf592b9776c565",
+      "size": 135,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "MASTER_ALARMS.json",
+      "sha256": "e3bc775614bbf543107adfa363d418753fb5a9877aadaea705558d1b3a307d7a",
+      "size": 51978,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "MASTER_COMPONENTS.json",
+      "sha256": "a7156e8c4cec619a983f1d0e13a0499cbc2713b9d2610a6c8961a453c0657eca",
+      "size": 17918,
+      "category": "consultation_layer",
+      "runtime_required": false
+    },
+    {
+      "file": "MASTER_CONFLICTS.json",
+      "sha256": "6e4dd4b322bccf803fb0d6c92dec7501e337f407331778b2e32eca583565d33e",
+      "size": 15322,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "MASTER_DOCUMENTS.json",
+      "sha256": "74370dad9a3348564273b27be6ef5d6aa25f621a0aacdb1a07d52050e1aaaea0",
+      "size": 98590,
+      "category": "consultation_layer",
+      "runtime_required": false
+    },
+    {
+      "file": "MASTER_ELECTRICAL_REFERENCES.json",
+      "sha256": "171907acede7282adcae6d8f81b93e3c74f65c9d81a1e3d6a6fc97b1e4d87db5",
+      "size": 35701,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "MASTER_ENTITIES.json",
+      "sha256": "be581a2e891676cc73083eb939be9c7123baf730b69ce9b01343dc5f31fdcee3",
+      "size": 500074,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "MASTER_EVIDENCE.json",
+      "sha256": "fefac1011617050c1798ca620a5d3fe4b3f2e23e11e992f375cc8fa25cfd8473",
+      "size": 619959,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "MASTER_INDEX.json",
+      "sha256": "25e3fb99a0f80aaa394f0eb78d06344256942ab59eec43085f5cff748ce00322",
+      "size": 466,
+      "category": "consultation_layer",
+      "runtime_required": false
+    },
+    {
+      "file": "MASTER_LIMITATIONS.json",
+      "sha256": "ed9559e68fd379e5e31ed2059c253d492bba2b8297b7bab4cca83dbbbdd83bb6",
+      "size": 323,
+      "category": "consultation_layer",
+      "runtime_required": false
+    },
+    {
+      "file": "MASTER_MAINTENANCE.json",
+      "sha256": "5cbfa52b1c2732ad4a6a5cab25cb959a730152ad9daa8f43c770c1461c3fe8e5",
+      "size": 2404,
+      "category": "consultation_layer",
+      "runtime_required": false
+    },
+    {
+      "file": "MASTER_PAGES.json",
+      "sha256": "a3fc843eff5bb37c38b81d94a9862247cf552ef746f8436171bff26177375bf5",
+      "size": 24604,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "MASTER_PROCEDURES.json",
+      "sha256": "7b6897efa1b8c3ef2a42d751ee96c8e4996bcb414c504435aafab50f88d32460",
+      "size": 54885,
+      "category": "consultation_layer",
+      "runtime_required": false
+    },
+    {
+      "file": "MASTER_QUERY_INDEX.json",
+      "sha256": "57490f7d999fb5ea819cee6ae08365bfb8ad1251fc0311778b9a90ac381a6e47",
+      "size": 885186,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "MASTER_SPECS.json",
+      "sha256": "feedcbcdbbc96ee35631ff64cf3a4e7619282d740d436696069541d944bc897c",
+      "size": 3961,
+      "category": "consultation_layer",
+      "runtime_required": false
+    },
+    {
+      "file": "MASTER_STATISTICS.json",
+      "sha256": "4b337da0bd39a718893ff22b3c1db4fb8f2575c4ad7713ef0f42cf519f0c902f",
+      "size": 9355,
+      "category": "consultation_layer",
+      "runtime_required": false
+    },
+    {
+      "file": "MASTER_SYMPTOMS.json",
+      "sha256": "fe06a391ab8f14940950fb8185f0a7b74b775f8ef79595b9180d514d82083795",
+      "size": 305863,
+      "category": "consultation_layer",
+      "runtime_required": false
+    },
+    {
+      "file": "MASTER_TAGS.json",
+      "sha256": "c051c45f0452ae210db800231e78df64425060a082d621cf8996927167caf836",
+      "size": 27737,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "Procfile",
+      "sha256": "ef07afd1832a709d1d4fec8492a5508ca47f4cbeb583af59f2ad195a924b9784",
+      "size": 20,
+      "category": "deploy_or_test",
+      "runtime_required": false
+    },
+    {
+      "file": "README.md",
+      "sha256": "16c9d9109765115781951774a9a7065970c5cc9aecb1f55065b607c56d21bbc7",
+      "size": 4822,
+      "category": "documentation",
+      "runtime_required": false
+    },
+    {
+      "file": "README_MASTER_CONSULTATION.md",
+      "sha256": "e908b676b1e292a2b5146aae155dbe64bbfec23f5fd2368f0aa500573304f441",
+      "size": 373,
+      "category": "documentation",
+      "runtime_required": false
+    },
+    {
+      "file": "render.yaml",
+      "sha256": "71a23b2482bb4d9c5fb6286cea88b16d15319e2022cbf60ff9f18075f9fec1bf",
+      "size": 321,
+      "category": "deploy_or_test",
+      "runtime_required": false
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "1cfca5a3b9b0807e584bec8bf588fa0d5071fa4f5891621cb6a09751730732ca",
+      "size": 117,
+      "category": "deploy_or_test",
+      "runtime_required": false
+    },
+    {
+      "file": "runtime.txt",
+      "sha256": "981f92338dd4ba770bdcccb22cc55514d7d3a27d9f8b9e817ce6c7ef32341535",
+      "size": 14,
+      "category": "deploy_or_test",
+      "runtime_required": false
+    },
+    {
+      "file": "SAFETY_MODEL.md",
+      "sha256": "37e8169483f30ff11e885328712392837c0dea105046a190cdcb557b02c2f249",
+      "size": 125,
+      "category": "documentation",
+      "runtime_required": false
+    },
+    {
+      "file": "server.py",
+      "sha256": "e807e585388115036ca53a0b37051adff4afd444fb466959fd1ff2f4ab25b521",
+      "size": 937,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "SOURCE_REGISTRY.json",
+      "sha256": "74370dad9a3348564273b27be6ef5d6aa25f621a0aacdb1a07d52050e1aaaea0",
+      "size": 98590,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "SYSTEM_ARCHITECTURE.md",
+      "sha256": "2b38ee4198ccc82a735e01dab86dab10ff035980b6ccbd0777f36469aa1cfce3",
+      "size": 188,
+      "category": "documentation",
+      "runtime_required": false
+    },
+    {
+      "file": "TEST_RESULTS.json",
+      "sha256": "c36a35feff8373c531494378513cad6c3f2dad17bfe5944a27dcdabc953f9dbf",
+      "size": 2318,
+      "category": "audit",
+      "runtime_required": false
+    },
+    {
+      "file": "tests.py",
+      "sha256": "be0d022ea66b96d022ab2a1b5cc606886f27fc73b35e161268a1df347b7646cf",
+      "size": 4456,
+      "category": "deploy_or_test",
+      "runtime_required": false
+    },
+    {
+      "file": "TRACEABILITY_INDEX.json",
+      "sha256": "8b067b40c8643c22ec8db7c72930e5f8b8c3a66d47a56696dc36ee812fa041d9",
+      "size": 287502,
+      "category": "runtime_required",
+      "runtime_required": true
+    },
+    {
+      "file": "validation_report.json",
+      "sha256": "98224c78aad45e29599fcea5ae2118b9bc9b4ac8aeed0ead53fffe0a337787f7",
+      "size": 8048,
+      "category": "audit",
+      "runtime_required": false
+    }
+  ]
+}

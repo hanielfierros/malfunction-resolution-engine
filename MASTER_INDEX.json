@@ -1,0 +1,19 @@
+{
+  "stage": 31,
+  "run_id": "20260818_214934",
+  "output": "MASTER_CONSULTATION_LAYER_RUN_20260818_214934",
+  "disclaimer": "Capa maestra de consulta. No diagnostica. continuity_confirmed=false.",
+  "documents": 154,
+  "entities": 1118,
+  "alarms": 110,
+  "symptoms": 719,
+  "tags": 61,
+  "components": 41,
+  "procedures": 113,
+  "maintenance": 5,
+  "specs": 8,
+  "electrical_references": 61,
+  "pages": 71,
+  "evidence": 1378,
+  "conflicts": 12
+}

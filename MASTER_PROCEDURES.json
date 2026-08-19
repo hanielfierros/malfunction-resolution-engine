@@ -1,0 +1,2041 @@
+{
+  "count": 113,
+  "records": [
+    {
+      "entity_id": "PROCEDUR_af5eda319720",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Emergency stop on the baler is activated",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        50
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_28adb83ffe3b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Heater (heating element) alarm",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        50
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_fbc49a3d8ec9",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Fault on Pump #1 or #2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_1362dcd30bec",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Recirculating pump fault",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_69f71fc62bf6",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Cooling fan fault",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_c05c0d083b79",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Alarm on the baler’s conveyor",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_86b97aabeb6b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Obstructed level cell",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_91e6806ab599",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Pre-compactor blocked - Alarm",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_5c25bdb8152e",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Time taken to move the ram in forward position too long.",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_cb8caa0c7fb3",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Time taken to move the ram backward too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_f8aa07261c1c",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Pre-compaction opening time too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_8232dc33c7c3",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Pre-compactor closing time too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_c1a505f6a06b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Time to bring out the needles is too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        53
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_ca80702a293e",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Time to bring in the needles is too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        53
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_675f702c0c71",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Time to forward twist too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        53
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_807e009bdac4",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Time to reverse twist too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        53
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_c706b8e11edc",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Missing condition to tie",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_a048c3714b8c",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Return filter blocked",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_7e7fedb5ab72",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Oil level too low",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_976d154f6c32",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Oil temperature too high",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_df21f160b9f3",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Hydraulic unit will shut down in a few minutes.",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_34c75e4eb888",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Missing condition in order to tie",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        55
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_9709e0478375",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Needles stuck in the ram",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        56
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_0b42f05c01ea",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Motor is noisy",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        56
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_add3908b3e09",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Pump is noisy",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        56
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_9bfbeef82af9",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Loss of power from cylinder",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        56
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_0e1fd156a637",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Oil High temperature",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_787845fc9c82",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Oil Low temperature",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_6575c5e7b0d2",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Clogged Return filter",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_24d7200f8e24",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Low oil level",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_a7e93b7e05e4",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Clogged Cooler Filter",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_8e21d8539830",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Prefill Valve not in position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_857eb9216172",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Clogged Pressure Filter #1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_ac86687e4f01",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Clogged Pressure Filter #2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_747f76b5ebc7",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Clogged Breather",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_f69f640ea95e",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Butterfly Valve #1 Not in Position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_4d3e5dfb7c21",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Butterfly Valve #2 Not in Position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_a06ed702b587",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Oil Heater #1 (Can happen when oil is too cool)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_8e02afa5bddf",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Oil Heater #2 Can happen when oil is too cool)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_bff05143e232",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Main Ram blocked",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_0f62113de98b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Pre Compactor Blocked",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_5be3da46341b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Main Ram Forward too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_ec9bca9f25b0",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Main Ram Reverse too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_2c216a334573",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Pre Compactor Forward too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_cc1cc74d8680",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Pre Compactor Reverse too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_0e3a8b837bd7",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Needles Forward too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_f54b44088336",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Needles Reverse too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_4f7e4f89b424",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Twister Forward too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_3e7cb52e8a0b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Twister Reverse too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_8ef3031831c5",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Missing Tie condition",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_3d6b1648694f",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Main Ram not in position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_e28740f97837",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Needle not in position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_c77e694e8b4e",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Pre-Compactor not in position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_4a5d4f0f9e26",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Twister not in position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_e801e53b3c01",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: LZ1 Reading Error (Main Ram)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_1894af66ee3b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: LZ2 Reading Error (Needles)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_f3684f5a79fa",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: AS1 Reading Error (Pre Compactor)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_28942f4a4dc0",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PC Level 1 Obstructed",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_407aa9ad95a2",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PC Level 2 Obstructed",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_bfb0f3208ab6",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PC Level 3 Obstructed",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_448d2a4a56d1",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PC Level 4 Obstructed",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_6f50d2ef518e",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PC Level 5 Obstructed",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_6ea05a060c0d",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PC Level 6 Obstructed",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_3a9e4dd2cc2a",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PC Jam Level Obstructed",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_9037d532e739",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PC Twister Module Obstructed",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_47dc1f9d680c",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Tunnel encoder wheel blocked (PX1)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_60bbb11d542a",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Bale Length encoder wheel blocked (PX2)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_5d87fc3e749a",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Failed to unblock Main Ram",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_61fe9401b378",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Failed to unblock Needles",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_cd2642cb43b5",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Failed to unblock Pre-Compactor",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_d111e1df1140",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Fault Pump 1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_6e11aa39002d",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Fault Pump 2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_effaf040fbe3",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Recirculation pump’s fault",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_a439eed96da1",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Cooling fan’s fault",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_1207716793fd",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Fault Motor B-420",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_6fd0ee779f18",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Power Off on Baler B1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_8bda75fe2635",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Opening Twister Module Too Long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_e6b7f516c294",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Closing Twister Module Too Long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_d255dae89c90",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Emergency Stop on JBTS1",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_53eeef2f863d",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Emergency Stop Near Left door of Compaction Room",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_309af091ed54",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Emergency Stop Near Right door of Compaction Room",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_ee922ddbe1c3",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Emergency Stop Left of Tunnel",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_060aacb1cbba",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Emergency Stop Right of Tunnel",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_df966ee254c6",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Emergency PullCord on B-420",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_52aec292e247",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Safety Signal from MCC13",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_a40cb681aeee",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Emergency Stop on B2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_48aeb5119f6b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Left Safety Door Switches",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_600d633fef74",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Right Safety Door Switches",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_673675464788",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Needles Safety Guard",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_3449b9ad8dd4",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Twisters Safety Guard",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_49b577d02567",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: MCR1 and MCR2 Not Activated",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_2ba3ac103e3d",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: DMCR1 and DMCR2 Not Activated",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_51192cd8ac6b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: MCP1 and MPC2 Not Activated",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_2c169fd0ed6b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Bale too Small to Tie",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_787b2d06b0bb",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Needle not in home position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_4a9c977e9de2",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Main Ram not in Requested Position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_f24141997828",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Twister not in Home Position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_e91bd4dc173d",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Needle not in Tie Position",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_242dee0c7f31",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: LZ3 Reading Error (Bale Pusher)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_26b2939d172d",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PUB2 Low Oil Level",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_7a14d3a80b64",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: PUB2 Oil High Temperature",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_99bed24fc895",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Bale Pusher Forward too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_c4594c0ab930",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Moving Bale Pusher reverse too long",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_0a6ea652f399",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Bale Scale’s maintenance Cover not Closed",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_8ff38ff2a875",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: Bale Jammed on Bale Weight Scale",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_2727b640e7f9",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: ES-B2 In Front of Control Panel B2",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_7951388e6b1e",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: B-2A Fault Scale Chain Conveyor (See Overload on Panel B2)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_e3e316f39744",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "Documented action: B-2B Équipement en faute (Voir relais de surcharge dans le panneau B2)",
+      "aliases": [],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from PL3_INFO table. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_bb654907aa2b",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "LOCKOUT & TAG-OUT INSTRUCTIONS",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_2f116444b7a3"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from General Maintenance master. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_b5c8b5d5345e",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "OIL REPLACEMENT",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        19
+      ],
+      "evidence_ids": [
+        "EV_49e2e63c107e"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from General Maintenance master. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_4d0e6a8eb442",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "OIL REPLACEMENT PROCEDURE",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        19,
+        20,
+        21
+      ],
+      "evidence_ids": [
+        "EV_49e2e63c107e"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from General Maintenance master. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_6ba744db07a7",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "BEARINGS LUBRICATION – PROCEDURE",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        27
+      ],
+      "evidence_ids": [
+        "EV_49e2e63c107e"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from General Maintenance master. Not invented."
+    },
+    {
+      "entity_id": "PROCEDUR_d59676370a0d",
+      "entity_type": "PROCEDURE",
+      "canonical_name": "DOOR SWITCH REPLACEMENT PROCEDURE",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        15
+      ],
+      "evidence_ids": [
+        "EV_be51b7c75b3e"
+      ],
+      "confidence": "HIGH",
+      "status": "DOCUMENTED",
+      "notes": "Imported from General Maintenance master. Not invented."
+    }
+  ]
+}

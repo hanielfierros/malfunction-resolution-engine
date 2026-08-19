@@ -1,0 +1,104 @@
+{
+  "count": 5,
+  "records": [
+    {
+      "entity_id": "MAINTENA_ce494e28ce1d",
+      "entity_type": "MAINTENANCE_CONCEPT",
+      "canonical_name": "LOTO",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        4
+      ],
+      "evidence_ids": [
+        "EV_2f116444b7a3"
+      ],
+      "confidence": "MEDIUM",
+      "status": "CONCEPT",
+      "notes": "Palabra/concepto. No es causa de falla."
+    },
+    {
+      "entity_id": "MAINTENA_a5f58c39cc52",
+      "entity_type": "MAINTENANCE_CONCEPT",
+      "canonical_name": "oil",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        19,
+        20,
+        21,
+        27,
+        32,
+        33,
+        18
+      ],
+      "evidence_ids": [
+        "EV_49e2e63c107e"
+      ],
+      "confidence": "MEDIUM",
+      "status": "CONCEPT",
+      "notes": "Palabra/concepto. No es causa de falla."
+    },
+    {
+      "entity_id": "MAINTENA_fad6a4280f46",
+      "entity_type": "MAINTENANCE_CONCEPT",
+      "canonical_name": "door switch",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        14,
+        15
+      ],
+      "evidence_ids": [
+        "EV_be51b7c75b3e"
+      ],
+      "confidence": "MEDIUM",
+      "status": "CONCEPT",
+      "notes": "Palabra/concepto. No es causa de falla."
+    },
+    {
+      "entity_id": "MAINTENA_32405e889a51",
+      "entity_type": "MAINTENANCE_CONCEPT",
+      "canonical_name": "motor",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        16,
+        31,
+        23
+      ],
+      "evidence_ids": [
+        "EV_b6f104ef8302"
+      ],
+      "confidence": "MEDIUM",
+      "status": "CONCEPT",
+      "notes": "Palabra/concepto. No es causa de falla."
+    },
+    {
+      "entity_id": "MAINTENA_7033e90fcdda",
+      "entity_type": "MAINTENANCE_CONCEPT",
+      "canonical_name": "temperature",
+      "aliases": [],
+      "source_ids": [
+        "DOC_fcbb7fc24e9e"
+      ],
+      "source_pages": [
+        25
+      ],
+      "evidence_ids": [
+        "EV_c0cf38bfa12e"
+      ],
+      "confidence": "MEDIUM",
+      "status": "CONCEPT",
+      "notes": "Palabra/concepto. No es causa de falla."
+    }
+  ]
+}

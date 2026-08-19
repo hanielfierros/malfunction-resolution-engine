@@ -1,0 +1,140 @@
+GITHUB PREPARATION REPORT
+malfunction-resolution-engine
+2026-08-19
+Department of Applied Aeronautical Engineering
+
+SOURCE AUDIT
+============
+See GITHUB_SOURCE_AUDIT.txt.
+Live PWA backend = DIAGNOSTIC_ENGINE_V15\BACKEND\36_BUILD_BACKEND.py
+Byte-identical to DIAGNOSTIC_ENGINE_FINAL\backend\36_BUILD_BACKEND.py.
+Runtime chain: 36 → 35 → 34 → 33 → 32 → MASTER_CONSULTATION_LAYER_RUN_20260818_214934.
+
+SOURCE CANONICAL VERSION
+========================
+DIAGNOSTIC_ENGINE_FINAL modules (V11–V15 identical) +
+MASTER_CONSULTATION_LAYER_RUN_20260818_214934.
+FINAL_KNOWLEDGE_BASE is the validated package MASTER was built from.
+It is not imported at runtime. V1–V10 are historical and were not copied.
+
+FILES COPIED
+============
+29 source artifacts (5 engine .py + 19 MASTER JSON + validation_report + 4 docs)
+plus new GitHub wrappers written at destination (not taken from source):
+  main.py server.py config.py api.py health.py tests.py
+  README.md requirements.txt runtime.txt Procfile render.yaml
+  .gitignore .env.example LICENSE_PLACEHOLDER.txt
+  SHA256_MANIFEST.json SECURITY_AUDIT.txt GITHUB_SOURCE_AUDIT.txt
+  DESTINATION_PREVIOUS_CONTENT.txt GITHUB_PREPARATION_REPORT.txt
+
+FILES OMITTED
+=============
+Entire historical trees (approx. 231 files across V1–V10, FINAL packaging
+duplicates, FKB JSON package, non-RUN MASTER builder, interface, launchers).
+Original PDFs, OCR, drawings, PWA files, notebooks, __pycache__,
+conversation logs. These are not required to execute the API.
+
+FILES SANITIZED
+===============
+9 copies:
+  32_BUILD_QUERY_ENGINE.py
+  33_BUILD_EVIDENCE_COMPOSER.py
+  34_BUILD_RESPONSE_CONTROLLER.py
+  35_BUILD_CONVERSATION_CONTEXT.py
+  36_BUILD_BACKEND.py
+  SOURCE_REGISTRY.json
+  MASTER_DOCUMENTS.json
+  MASTER_INDEX.json
+  MASTER_STATISTICS.json
+
+Originals unchanged.
+
+DEPENDENCIES
+============
+Python >= 3.10 (local 3.14.6; runtime.txt python-3.12.8)
+Third-party packages: NONE
+requirements.txt is intentionally empty of pins.
+
+ENVIRONMENT VARIABLES
+=====================
+HOST          default 127.0.0.1   (0.0.0.0 on a host)
+PORT          default 8765        (platform-provided in production)
+ENVIRONMENT   default development
+ALLOWED_ORIGINS   localhost PWA ports; set GitHub Pages origin in production
+KB_DIR        optional JSON directory override
+
+API ENDPOINTS
+=============
+GET  /health
+GET  /status
+GET  /entity/{id}
+GET  /alarm/{id}
+GET  /document/{id}
+GET  /page/{id}
+POST /query     {"query":"..."}
+POST /reset
+OPTIONS *       CORS
+
+TEST RESULTS
+============
+In-process tests.py: 21/21 PASS
+HTTP on 127.0.0.1:8766:
+  GET /health 200
+  POST /query LZ1 Reading Error → DOCUMENTARY
+  continuity_confirmed = false
+  diagnosis_confirmed = false
+  electrical_connection_confirmed = false
+  CORS: Origin http://127.0.0.1:8000 echoed; unknown origin not wildcarded
+LZ1 pages retained:
+  PL3_INFO p.59 DIRECT_ALARM
+  Operating System p.4 DIRECT_TAG
+  B-130 p.50 / p.74 / p.76 / p.9 PAGE_REFERENCE
+  No continuity asserted.
+Safety: "replace LZ1" and "qué cable es LZ1" → SAFETY_BLOCK
+Empty / ZZ99 / unknown → NO_MATCH
+encoder blocked / oil problem / ram problem / automatic mode → NO_MATCH
+  (no invented diagnosis)
+
+SECURITY AUDIT
+==============
+See SECURITY_AUDIT.txt.
+No credentials. Personal Windows paths stripped from copies.
+CORS is origin-allowlist, not *.
+
+SHA256 RESULTS
+==============
+See SHA256_MANIFEST.json (46 files hashed, ~3.1 MB of listed content).
+Source lock: 29 original files re-hashed after copy.
+SOURCE_FILES_UNMODIFIED = TRUE
+
+SOURCE INTEGRITY
+================
+SOURCE_FILES_UNMODIFIED = TRUE
+No original under GLOBAL_KNOWLEDGE_BASE was written by this process.
+
+DEPLOYMENT READINESS
+====================
+python main.py
+Render: render.yaml + Procfile
+Set HOST=0.0.0.0, PORT from platform, ALLOWED_ORIGINS to the PWA HTTPS origin.
+
+CHECKLIST
+=========
+[PASS] Runtime funciona
+[PASS] /health funciona
+[PASS] API responde
+[PASS] Knowledge Base carga
+[PASS] LZ1 funciona
+[PASS] LZ2 funciona
+[PASS] PX1/PX2 funcionan (bare tag query → DOCUMENTARY)
+[PASS] Safety rules funcionan
+[PASS] No hay diagnosis inventado
+[PASS] No hay continuidad inventada
+[PASS] No hay conexiones inventadas
+[PASS] No hay credenciales
+[PASS] No existen rutas personales de Windows en runtime
+[PASS] requirements.txt correcto
+[PASS] .gitignore correcto
+[PASS] README.md correcto
+[PASS] GitHub-ready
+[PASS] Source files intactos

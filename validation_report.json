@@ -1,0 +1,412 @@
+{
+  "total_tests": 74,
+  "passed": 74,
+  "failed": 0,
+  "score": "74/74",
+  "tests": [
+    {
+      "test": "lz1_alarm",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "lz1_tag_one_canonical",
+      "result": "PASS",
+      "detail": [
+        "TAG_76e4b4373618"
+      ]
+    },
+    {
+      "test": "lz2_alarm",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "tag_PX1",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "tag_PX2",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "tag_HTR1",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "tag_HTR2",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "tag_JB1",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "tag_JBPU",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "tag_MTRP1",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "tag_MTRP2",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "tag_MTRP3",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "pub2_alarm",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "pub2_hot",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "needle_no_lz_auto",
+      "result": "PASS",
+      "detail": []
+    },
+    {
+      "test": "b420",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "mcc13_alarm",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "empty_nomatch",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "zz99_nomatch",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "unknown_alarm_weak",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "oil_not_htr_cause",
+      "result": "PASS",
+      "detail": [
+        "OIL",
+        "oil"
+      ]
+    },
+    {
+      "test": "oil_is_concept_or_spec",
+      "result": "PASS",
+      "detail": "MATCH"
+    },
+    {
+      "test": "all_elec_continuity_false",
+      "result": "PASS",
+      "detail": 0
+    },
+    {
+      "test": "no_text_label_as_connection",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "text_label_wording",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "no_defective_claim",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "conflicts_imported",
+      "result": "PASS",
+      "detail": 12
+    },
+    {
+      "test": "conflicts_unresolved",
+      "result": "PASS",
+      "detail": [
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "test": "pressure_conflict_kept",
+      "result": "PASS",
+      "detail": [
+        "CFL:PRESSURE_SCOPE",
+        "CFL:NAMING:MTRP1_MTRP2",
+        "CFL:NAMING:HTR1_HTR2",
+        "CFL:NAMING:PV1_PV3",
+        "CFL:NAMING:PC1_PC2_PC3",
+        "CFL:NAMING:LZ1_LZ2",
+        "CFL:NAMING:PX1_PX2",
+        "CFL:NAMING:SD1_SD2_SD3",
+        "CFL:NAMING:ES1_ES2",
+        "CFL:NAMING:PX44_PX4B",
+        "CFL:OIL_SOURCES",
+        "CFL:MOTOR_DESCRIPTION"
+      ]
+    },
+    {
+      "test": "pages_have_numbers",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "lz1_has_sources",
+      "result": "PASS",
+      "detail": [
+        59,
+        4,
+        50,
+        74,
+        76,
+        9
+      ]
+    },
+    {
+      "test": "lz1_elec_pages",
+      "result": "PASS",
+      "detail": [
+        50,
+        74,
+        76,
+        9
+      ]
+    },
+    {
+      "test": "no_wire_qué cable es",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "test": "no_wire_borne de LZ1",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "test": "no_wire_bypass",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "test": "no_wire_desconectar ",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "test": "no_wire_reemplazar L",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "test": "no_wire_LZ1 está dañ",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "test": "entities_nonempty",
+      "result": "PASS",
+      "detail": 1118
+    },
+    {
+      "test": "alarms_110",
+      "result": "PASS",
+      "detail": 110
+    },
+    {
+      "test": "single_lz1_tag",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "no_pdf_parsed",
+      "result": "PASS",
+      "detail": 7
+    },
+    {
+      "test": "fitz_not_imported",
+      "result": "PASS",
+      "detail": true
+    },
+    {
+      "test": "lookup_ok_lz1 reading error",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_lz2 reading error",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_px1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_px2",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_htr1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_htr2",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_jb1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_jbpu",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_mtrp1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_mtrp2",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_mtrp3",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_pub2 low oil level",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_pub2 oil high temper",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_needle not in tie po",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_emergency pullcord o",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_safety signal from m",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_mcr1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_dmcr1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_mcp1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_ram",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_encoder",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_oil",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_temperature",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_automatic mode",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_bale length",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_lz1 está dañado",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_reemplazar lz1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_qué cable es lz1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_borne de lz1",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_bypass",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "test": "lookup_ok_desconectar lz1",
+      "result": "PASS",
+      "detail": "ok"
+    }
+  ]
+}

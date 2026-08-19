@@ -1,0 +1,112 @@
+{
+  "total": 21,
+  "passed": 21,
+  "failed": 0,
+  "tests": [
+    {
+      "name": "health",
+      "result": "PASS",
+      "detail": "ok"
+    },
+    {
+      "name": "query:LZ1 Reading Error",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:LZ2 Reading Error",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:PX1",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:PX2",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:HTR1",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:JB1",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:PUB2 Low Oil Level",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:Needle not in Tie Position",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:Emergency PullCord on B-420",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:Safety Signal from MCC13",
+      "result": "PASS",
+      "detail": "DOCUMENTARY"
+    },
+    {
+      "name": "query:encoder blocked",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "name": "query:oil problem",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "name": "query:ram problem",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "name": "query:automatic mode",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "name": "query:(empty)",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "name": "query:ZZ99",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "name": "query:unknown xyzzy question 999",
+      "result": "PASS",
+      "detail": "NO_MATCH"
+    },
+    {
+      "name": "safety:replace LZ1",
+      "result": "PASS",
+      "detail": "SAFETY_BLOCK"
+    },
+    {
+      "name": "safety:wire",
+      "result": "PASS",
+      "detail": "SAFETY_BLOCK"
+    },
+    {
+      "name": "no_windows_path_in_response",
+      "result": "PASS",
+      "detail": true
+    }
+  ]
+}

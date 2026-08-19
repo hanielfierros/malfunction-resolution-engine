@@ -1,0 +1,2313 @@
+{
+  "count": 110,
+  "records": [
+    {
+      "entity_id": "ALARM_ee076cf0b6e2",
+      "entity_type": "ALARM",
+      "canonical_name": "Emergency stop on the baler is activated",
+      "aliases": [
+        "ALM:001"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        50
+      ],
+      "evidence_ids": [
+        "EV_b31802d53b15",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_23ca60419a03",
+      "entity_type": "ALARM",
+      "canonical_name": "Heater (heating element) alarm",
+      "aliases": [
+        "ALM:002"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        50
+      ],
+      "evidence_ids": [
+        "EV_97dab10a0cdb",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_7cf43b052369",
+      "entity_type": "ALARM",
+      "canonical_name": "Fault on Pump #1 or #2",
+      "aliases": [
+        "ALM:003"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_7d95dbef39ce",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_efa43dff1b72",
+      "entity_type": "ALARM",
+      "canonical_name": "Recirculating pump fault",
+      "aliases": [
+        "ALM:004"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_8e69e97fa1e7",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_1d62cf8bc00d",
+      "entity_type": "ALARM",
+      "canonical_name": "Cooling fan fault",
+      "aliases": [
+        "ALM:005"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_6cd2a8272f05",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_5b7e9c84737a",
+      "entity_type": "ALARM",
+      "canonical_name": "Alarm on the baler’s conveyor",
+      "aliases": [
+        "ALM:006"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_e9a23cfc6bbd",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_927a1762a313",
+      "entity_type": "ALARM",
+      "canonical_name": "Obstructed level cell",
+      "aliases": [
+        "ALM:007"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        51
+      ],
+      "evidence_ids": [
+        "EV_fdd2e8626b3b",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_c8500f6dee36",
+      "entity_type": "ALARM",
+      "canonical_name": "Pre-compactor blocked - Alarm",
+      "aliases": [
+        "ALM:008"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_12cabce87418",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_e6cb1293641c",
+      "entity_type": "ALARM",
+      "canonical_name": "Time taken to move the ram in forward position too long.",
+      "aliases": [
+        "ALM:009"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_752bd936ec4b",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_4f6bd93190fe",
+      "entity_type": "ALARM",
+      "canonical_name": "Time taken to move the ram backward too long",
+      "aliases": [
+        "ALM:010"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_a68b24da36d0",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_0358921030f6",
+      "entity_type": "ALARM",
+      "canonical_name": "Pre-compaction opening time too long",
+      "aliases": [
+        "ALM:011"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_904e7acc36cd",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_60ac01208a3a",
+      "entity_type": "ALARM",
+      "canonical_name": "Pre-compactor closing time too long",
+      "aliases": [
+        "ALM:012"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        52
+      ],
+      "evidence_ids": [
+        "EV_d702b5dfc52f",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_75a5eb20982c",
+      "entity_type": "ALARM",
+      "canonical_name": "Time to bring out the needles is too long",
+      "aliases": [
+        "ALM:013"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        53
+      ],
+      "evidence_ids": [
+        "EV_d8c6dcbd90ed",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_f53960b95134",
+      "entity_type": "ALARM",
+      "canonical_name": "Time to bring in the needles is too long",
+      "aliases": [
+        "ALM:014"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        53
+      ],
+      "evidence_ids": [
+        "EV_aeb1e838f5e5",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_77557978d100",
+      "entity_type": "ALARM",
+      "canonical_name": "Time to forward twist too long",
+      "aliases": [
+        "ALM:015"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        53
+      ],
+      "evidence_ids": [
+        "EV_663a8b7247b7",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_5b332d890fe7",
+      "entity_type": "ALARM",
+      "canonical_name": "Time to reverse twist too long",
+      "aliases": [
+        "ALM:016"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        53
+      ],
+      "evidence_ids": [
+        "EV_25acf1578f65",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_80342850bcc2",
+      "entity_type": "ALARM",
+      "canonical_name": "Missing condition to tie",
+      "aliases": [
+        "ALM:017"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_e84a38f83521",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_13e2dd7e1c8e",
+      "entity_type": "ALARM",
+      "canonical_name": "Return filter blocked",
+      "aliases": [
+        "ALM:018"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_854fb181cf6a",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_6a07708d550b",
+      "entity_type": "ALARM",
+      "canonical_name": "Oil level too low",
+      "aliases": [
+        "ALM:019"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_dee6024828fd",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_03a898b732ec",
+      "entity_type": "ALARM",
+      "canonical_name": "Oil temperature too high",
+      "aliases": [
+        "ALM:020"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_9f60de885f68",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_42c0a5d35be2",
+      "entity_type": "ALARM",
+      "canonical_name": "Hydraulic unit will shut down in a few minutes.",
+      "aliases": [
+        "ALM:021"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        54
+      ],
+      "evidence_ids": [
+        "EV_f886f50a98c1",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_a49f6e18ea39",
+      "entity_type": "ALARM",
+      "canonical_name": "Missing condition in order to tie",
+      "aliases": [
+        "ALM:022"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        55
+      ],
+      "evidence_ids": [
+        "EV_3bb58a480885",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_54cda331e66c",
+      "entity_type": "ALARM",
+      "canonical_name": "Needles stuck in the ram",
+      "aliases": [
+        "ALM:023"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        56
+      ],
+      "evidence_ids": [
+        "EV_88df085ff795",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_3d893b707531",
+      "entity_type": "ALARM",
+      "canonical_name": "Motor is noisy",
+      "aliases": [
+        "ALM:024"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        56
+      ],
+      "evidence_ids": [
+        "EV_47b663879543",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_ed6901f086fa",
+      "entity_type": "ALARM",
+      "canonical_name": "Pump is noisy",
+      "aliases": [
+        "ALM:025"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        56
+      ],
+      "evidence_ids": [
+        "EV_8dda37ce7190",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_11f9bcad04d8",
+      "entity_type": "ALARM",
+      "canonical_name": "Loss of power from cylinder",
+      "aliases": [
+        "ALM:026"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        56
+      ],
+      "evidence_ids": [
+        "EV_66261f78f40f",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_1de54612b401",
+      "entity_type": "ALARM",
+      "canonical_name": "Oil High temperature",
+      "aliases": [
+        "ALM:027"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_0f8b9e6319f1",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_8cf982062bba",
+      "entity_type": "ALARM",
+      "canonical_name": "Oil Low temperature",
+      "aliases": [
+        "ALM:028"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_8fc6af99b2eb",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_121b9f69f9a1",
+      "entity_type": "ALARM",
+      "canonical_name": "Clogged Return filter",
+      "aliases": [
+        "ALM:029"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_4350c6f2a98c",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_3029b9640224",
+      "entity_type": "ALARM",
+      "canonical_name": "Low oil level",
+      "aliases": [
+        "ALM:030"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_24a5a13c712d",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_be78aa95117f",
+      "entity_type": "ALARM",
+      "canonical_name": "Clogged Cooler Filter",
+      "aliases": [
+        "ALM:031"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_fd3401639dab",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_8d36067b54c9",
+      "entity_type": "ALARM",
+      "canonical_name": "Prefill Valve not in position",
+      "aliases": [
+        "ALM:032"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_7380e84b3647",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_302318116745",
+      "entity_type": "ALARM",
+      "canonical_name": "Clogged Pressure Filter #1",
+      "aliases": [
+        "ALM:033"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_996f08d575dc",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_0340d6ec0b77",
+      "entity_type": "ALARM",
+      "canonical_name": "Clogged Pressure Filter #2",
+      "aliases": [
+        "ALM:034"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_574fb70a29e1",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_88f2f3ad65df",
+      "entity_type": "ALARM",
+      "canonical_name": "Clogged Breather",
+      "aliases": [
+        "ALM:035"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_f1f60f272bab",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_ac3b70f9e4ae",
+      "entity_type": "ALARM",
+      "canonical_name": "Butterfly Valve #1 Not in Position",
+      "aliases": [
+        "ALM:036"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_e72fe2651013",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_78860a96f7bd",
+      "entity_type": "ALARM",
+      "canonical_name": "Butterfly Valve #2 Not in Position",
+      "aliases": [
+        "ALM:037"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_b731d73862a9",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_3ea9ac689dff",
+      "entity_type": "ALARM",
+      "canonical_name": "Oil Heater #1 (Can happen when oil is too cool)",
+      "aliases": [
+        "ALM:038"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_d72cbfa54169",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_6335c9963784",
+      "entity_type": "ALARM",
+      "canonical_name": "Oil Heater #2 Can happen when oil is too cool)",
+      "aliases": [
+        "ALM:039"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_141db57fc4ac",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_beed1021287b",
+      "entity_type": "ALARM",
+      "canonical_name": "Main Ram blocked",
+      "aliases": [
+        "ALM:040"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_3dc031d481b3",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_66f963088414",
+      "entity_type": "ALARM",
+      "canonical_name": "Pre Compactor Blocked",
+      "aliases": [
+        "ALM:041"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_66bfb3c1d111",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_3b339220ac74",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Main Ram Forward too long",
+      "aliases": [
+        "ALM:042"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_2134805a5e6b",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_4b7f2b48d1eb",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Main Ram Reverse too long",
+      "aliases": [
+        "ALM:043"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        57
+      ],
+      "evidence_ids": [
+        "EV_edefaf38cc7e",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_522e1e3164f8",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Pre Compactor Forward too long",
+      "aliases": [
+        "ALM:044"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_f894eebf6548",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_7b748f022269",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Pre Compactor Reverse too long",
+      "aliases": [
+        "ALM:045"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_8b129df27d91",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_5b2326fc4c59",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Needles Forward too long",
+      "aliases": [
+        "ALM:046"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_71a0d5a6204f",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_9ddbc30801b5",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Needles Reverse too long",
+      "aliases": [
+        "ALM:047"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_978ff12b0ecc",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_feae4dd5dcf5",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Twister Forward too long",
+      "aliases": [
+        "ALM:048"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_9de262bc2ff5",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_96779e222c39",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Twister Reverse too long",
+      "aliases": [
+        "ALM:049"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_d7a497805b22",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_66788e2ffaef",
+      "entity_type": "ALARM",
+      "canonical_name": "Missing Tie condition",
+      "aliases": [
+        "ALM:050"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_025290db7ee1",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_996e9103917d",
+      "entity_type": "ALARM",
+      "canonical_name": "Main Ram not in position",
+      "aliases": [
+        "ALM:051"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_89cb1539f160",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_b134bd06166e",
+      "entity_type": "ALARM",
+      "canonical_name": "Needle not in position",
+      "aliases": [
+        "ALM:052"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_539f125c570e",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_0ef82f3e6085",
+      "entity_type": "ALARM",
+      "canonical_name": "Pre-Compactor not in position",
+      "aliases": [
+        "ALM:053"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        58
+      ],
+      "evidence_ids": [
+        "EV_37f91812df3e",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_06764a118f1d",
+      "entity_type": "ALARM",
+      "canonical_name": "Twister not in position",
+      "aliases": [
+        "ALM:054"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_dcdb0ed9c9dc",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_5d7f785d6cfc",
+      "entity_type": "ALARM",
+      "canonical_name": "LZ1 Reading Error (Main Ram)",
+      "aliases": [
+        "ALM:055"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_aceeeea5d11e",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_df4e40fe2367",
+      "entity_type": "ALARM",
+      "canonical_name": "LZ2 Reading Error (Needles)",
+      "aliases": [
+        "ALM:056"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_5efe427d7125",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_e0499cdcfd4a",
+      "entity_type": "ALARM",
+      "canonical_name": "AS1 Reading Error (Pre Compactor)",
+      "aliases": [
+        "ALM:057"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_189322900542",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_e5e0e74e3df7",
+      "entity_type": "ALARM",
+      "canonical_name": "PC Level 1 Obstructed",
+      "aliases": [
+        "ALM:058"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_d6d5c33d3211",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_09fdf16c1369",
+      "entity_type": "ALARM",
+      "canonical_name": "PC Level 2 Obstructed",
+      "aliases": [
+        "ALM:059"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_2d7698cc270b",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_eafe71efe251",
+      "entity_type": "ALARM",
+      "canonical_name": "PC Level 3 Obstructed",
+      "aliases": [
+        "ALM:060"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        59
+      ],
+      "evidence_ids": [
+        "EV_5e3845c109b6",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_44fdecb2cc61",
+      "entity_type": "ALARM",
+      "canonical_name": "PC Level 4 Obstructed",
+      "aliases": [
+        "ALM:061"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_075ed7ec0a9a",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_bf765ddbc518",
+      "entity_type": "ALARM",
+      "canonical_name": "PC Level 5 Obstructed",
+      "aliases": [
+        "ALM:062"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_4ce9da56736e",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_ce6a9486b27d",
+      "entity_type": "ALARM",
+      "canonical_name": "PC Level 6 Obstructed",
+      "aliases": [
+        "ALM:063"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_463d735c6a07",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_2c76bf74c8f2",
+      "entity_type": "ALARM",
+      "canonical_name": "PC Jam Level Obstructed",
+      "aliases": [
+        "ALM:064"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_51c2383dc28a",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_57a0ac58c4f5",
+      "entity_type": "ALARM",
+      "canonical_name": "PC Twister Module Obstructed",
+      "aliases": [
+        "ALM:065"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_064120d6cc09",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_3692758fdb48",
+      "entity_type": "ALARM",
+      "canonical_name": "Tunnel encoder wheel blocked (PX1)",
+      "aliases": [
+        "ALM:066"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_c1de67febd57",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_184f3d1ded44",
+      "entity_type": "ALARM",
+      "canonical_name": "Bale Length encoder wheel blocked (PX2)",
+      "aliases": [
+        "ALM:067"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        60
+      ],
+      "evidence_ids": [
+        "EV_c4a7e9e38c0e",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_d7f01f92fa7d",
+      "entity_type": "ALARM",
+      "canonical_name": "Failed to unblock Main Ram",
+      "aliases": [
+        "ALM:068"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_e6840a3c8809",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_bf76abd81654",
+      "entity_type": "ALARM",
+      "canonical_name": "Failed to unblock Needles",
+      "aliases": [
+        "ALM:069"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_e4ea0381b836",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_a7068994d8ef",
+      "entity_type": "ALARM",
+      "canonical_name": "Failed to unblock Pre-Compactor",
+      "aliases": [
+        "ALM:070"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_6e9329ae9f4a",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_8b5399129d86",
+      "entity_type": "ALARM",
+      "canonical_name": "Fault Pump 1",
+      "aliases": [
+        "ALM:071"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_30cd535e3f83",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_1f6d965ab28d",
+      "entity_type": "ALARM",
+      "canonical_name": "Fault Pump 2",
+      "aliases": [
+        "ALM:072"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_7768ea5ba50a",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_655c50765388",
+      "entity_type": "ALARM",
+      "canonical_name": "Recirculation pump’s fault",
+      "aliases": [
+        "ALM:073"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_39f5ff1a72e1",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_fbe2ab5e78a7",
+      "entity_type": "ALARM",
+      "canonical_name": "Cooling fan’s fault",
+      "aliases": [
+        "ALM:074"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_0f461f85664f",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_d8352eeff569",
+      "entity_type": "ALARM",
+      "canonical_name": "Fault Motor B-420",
+      "aliases": [
+        "ALM:075"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_38fb7203ee7d",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_eb55181a3ed9",
+      "entity_type": "ALARM",
+      "canonical_name": "Power Off on Baler B1",
+      "aliases": [
+        "ALM:076"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_61dd9938f9df",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_bebcd5ec9b24",
+      "entity_type": "ALARM",
+      "canonical_name": "Opening Twister Module Too Long",
+      "aliases": [
+        "ALM:077"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_9d6ef2fae7db",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_c46308727a29",
+      "entity_type": "ALARM",
+      "canonical_name": "Closing Twister Module Too Long",
+      "aliases": [
+        "ALM:078"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_3884d6fe5d9c",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_80b34e37c7ad",
+      "entity_type": "ALARM",
+      "canonical_name": "Emergency Stop on JBTS1",
+      "aliases": [
+        "ALM:079"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_331abec5090b",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_1b63ced366a4",
+      "entity_type": "ALARM",
+      "canonical_name": "Emergency Stop Near Left door of Compaction Room",
+      "aliases": [
+        "ALM:080"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_903a8e54b2bc",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_e22408647df4",
+      "entity_type": "ALARM",
+      "canonical_name": "Emergency Stop Near Right door of Compaction Room",
+      "aliases": [
+        "ALM:081"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_29abfca6b57e",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_643538d258e3",
+      "entity_type": "ALARM",
+      "canonical_name": "Emergency Stop Left of Tunnel",
+      "aliases": [
+        "ALM:082"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_f145d5f3f650",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_b47691af15c4",
+      "entity_type": "ALARM",
+      "canonical_name": "Emergency Stop Right of Tunnel",
+      "aliases": [
+        "ALM:083"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        61
+      ],
+      "evidence_ids": [
+        "EV_f4317d360a17",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_de4b23fb8217",
+      "entity_type": "ALARM",
+      "canonical_name": "Emergency PullCord on B-420",
+      "aliases": [
+        "ALM:084"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_0501fd1380e1",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_c42ce3fcce36",
+      "entity_type": "ALARM",
+      "canonical_name": "Safety Signal from MCC13",
+      "aliases": [
+        "ALM:085"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_eb5045f3c752",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_c51e1afa976e",
+      "entity_type": "ALARM",
+      "canonical_name": "Emergency Stop on B2",
+      "aliases": [
+        "ALM:086"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_a65e0f27306c",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_6604f8c9ed69",
+      "entity_type": "ALARM",
+      "canonical_name": "Left Safety Door Switches",
+      "aliases": [
+        "ALM:087"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_b1594a09e87f",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_2905c05fcbbf",
+      "entity_type": "ALARM",
+      "canonical_name": "Right Safety Door Switches",
+      "aliases": [
+        "ALM:088"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_016cf03b4b1f",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_f6cca7966f0d",
+      "entity_type": "ALARM",
+      "canonical_name": "Needles Safety Guard",
+      "aliases": [
+        "ALM:089"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_d42ef20e670d",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_5ff0e4586989",
+      "entity_type": "ALARM",
+      "canonical_name": "Twisters Safety Guard",
+      "aliases": [
+        "ALM:090"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_399f781b566b",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_16d85287d552",
+      "entity_type": "ALARM",
+      "canonical_name": "MCR1 and MCR2 Not Activated",
+      "aliases": [
+        "ALM:091"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_096198d7f0ce",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_494a3a96a79a",
+      "entity_type": "ALARM",
+      "canonical_name": "DMCR1 and DMCR2 Not Activated",
+      "aliases": [
+        "ALM:092"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_127b73f5be4d",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_7d42db5389a8",
+      "entity_type": "ALARM",
+      "canonical_name": "MCP1 and MPC2 Not Activated",
+      "aliases": [
+        "ALM:093"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_50d6a4d71177",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_678202e34dcf",
+      "entity_type": "ALARM",
+      "canonical_name": "Bale too Small to Tie",
+      "aliases": [
+        "ALM:094"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_68b9c1ffed44",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_a77763467b85",
+      "entity_type": "ALARM",
+      "canonical_name": "Needle not in home position",
+      "aliases": [
+        "ALM:095"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_bfda6c5fe68f",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_2d704b335daa",
+      "entity_type": "ALARM",
+      "canonical_name": "Main Ram not in Requested Position",
+      "aliases": [
+        "ALM:096"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_7d0bb7ece5d4",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_520fb4220f9f",
+      "entity_type": "ALARM",
+      "canonical_name": "Twister not in Home Position",
+      "aliases": [
+        "ALM:097"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        62
+      ],
+      "evidence_ids": [
+        "EV_125eb4797a86",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_4a33be0b7279",
+      "entity_type": "ALARM",
+      "canonical_name": "Needle not in Tie Position",
+      "aliases": [
+        "ALM:098"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_9b4ab380901d",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_621e49de0c25",
+      "entity_type": "ALARM",
+      "canonical_name": "Main Ram Not Home To Close Pre Compactor",
+      "aliases": [
+        "ALM:099"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_587187b06d15"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_765a7ec489de",
+      "entity_type": "ALARM",
+      "canonical_name": "LZ3 Reading Error (Bale Pusher)",
+      "aliases": [
+        "ALM:100"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_d1d790e0ba5e",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_539d5510209e",
+      "entity_type": "ALARM",
+      "canonical_name": "PUB2 Low Oil Level",
+      "aliases": [
+        "ALM:101"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_378c7287b841",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_c066c481118a",
+      "entity_type": "ALARM",
+      "canonical_name": "PUB2 Oil High Temperature",
+      "aliases": [
+        "ALM:102"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_350c07c45ee4",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_7316492bf513",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Bale Pusher Forward too long",
+      "aliases": [
+        "ALM:103"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_407e3883c655",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_f12ca1ed193e",
+      "entity_type": "ALARM",
+      "canonical_name": "Moving Bale Pusher reverse too long",
+      "aliases": [
+        "ALM:104"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_971f20fe4ba4",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_0694f6517756",
+      "entity_type": "ALARM",
+      "canonical_name": "Bale Scale’s maintenance Cover not Closed",
+      "aliases": [
+        "ALM:105"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_7cba9212ecf9",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_0fdcdf97a76b",
+      "entity_type": "ALARM",
+      "canonical_name": "Main Disconnect of B2 in OFF Position",
+      "aliases": [
+        "ALM:106"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_b1d3d5d6986c"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_f1b644fb073e",
+      "entity_type": "ALARM",
+      "canonical_name": "Bale Jammed on Bale Weight Scale",
+      "aliases": [
+        "ALM:107"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_83acae9840bf",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_b60f8f9acfbc",
+      "entity_type": "ALARM",
+      "canonical_name": "ES-B2 In Front of Control Panel B2",
+      "aliases": [
+        "ALM:108"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_6041e99a8a79",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_3b65dca4efed",
+      "entity_type": "ALARM",
+      "canonical_name": "B-2A Fault Scale Chain Conveyor (See Overload on Panel B2)",
+      "aliases": [
+        "ALM:109"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_90c338def058",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    },
+    {
+      "entity_id": "ALARM_263f2c032e17",
+      "entity_type": "ALARM",
+      "canonical_name": "B-2B Équipement en faute (Voir relais de surcharge dans le panneau B2)",
+      "aliases": [
+        "ALM:110"
+      ],
+      "source_ids": [
+        "DOC_459a4d4f2d6c"
+      ],
+      "source_pages": [
+        63
+      ],
+      "evidence_ids": [
+        "EV_f5e99669e36b",
+        "EV_2977c2810ae7"
+      ],
+      "confidence": "HIGH",
+      "status": "VALIDATED",
+      "notes": null
+    }
+  ]
+}

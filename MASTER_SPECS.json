@@ -1,0 +1,166 @@
+{
+  "count": 8,
+  "records": [
+    {
+      "entity_id": "SPECIFIC_d3d3bcc31503",
+      "entity_type": "SPECIFICATION",
+      "canonical_name": "Type of equipment: Linear baler « PL3 »",
+      "aliases": [
+        "Linear baler « PL3 »"
+      ],
+      "source_ids": [
+        "DOC_54f32efc6a02"
+      ],
+      "source_pages": [
+        2
+      ],
+      "evidence_ids": [
+        "EV_bbefc8bdb447"
+      ],
+      "confidence": "HIGH",
+      "status": "SOURCE_CONTEXT",
+      "notes": "Identification context only."
+    },
+    {
+      "entity_id": "SPECIFIC_fbb3e1c8de44",
+      "entity_type": "SPECIFICATION",
+      "canonical_name": "Equipment #: B-130",
+      "aliases": [
+        "B-130"
+      ],
+      "source_ids": [
+        "DOC_54f32efc6a02"
+      ],
+      "source_pages": [
+        2
+      ],
+      "evidence_ids": [
+        "EV_bbefc8bdb447"
+      ],
+      "confidence": "HIGH",
+      "status": "SOURCE_CONTEXT",
+      "notes": "Identification context only."
+    },
+    {
+      "entity_id": "SPECIFIC_fb27067b6862",
+      "entity_type": "SPECIFICATION",
+      "canonical_name": "Serial #: PL3-017L",
+      "aliases": [
+        "PL3-017L"
+      ],
+      "source_ids": [
+        "DOC_54f32efc6a02"
+      ],
+      "source_pages": [
+        2
+      ],
+      "evidence_ids": [
+        "EV_bbefc8bdb447"
+      ],
+      "confidence": "HIGH",
+      "status": "SOURCE_CONTEXT",
+      "notes": "Identification context only."
+    },
+    {
+      "entity_id": "SPECIFIC_c778c1ac52bb",
+      "entity_type": "SPECIFICATION",
+      "canonical_name": "Model: MLP-235-TP-HT",
+      "aliases": [
+        "MLP-235-TP-HT"
+      ],
+      "source_ids": [
+        "DOC_54f32efc6a02"
+      ],
+      "source_pages": [
+        2
+      ],
+      "evidence_ids": [
+        "EV_bbefc8bdb447"
+      ],
+      "confidence": "HIGH",
+      "status": "SOURCE_CONTEXT",
+      "notes": "Identification context only."
+    },
+    {
+      "entity_id": "SPECIFIC_be8a9b3be66c",
+      "entity_type": "SPECIFICATION",
+      "canonical_name": "Maximum Force: 235 tons",
+      "aliases": [
+        "235 tons"
+      ],
+      "source_ids": [
+        "DOC_54f32efc6a02"
+      ],
+      "source_pages": [
+        2
+      ],
+      "evidence_ids": [
+        "EV_bbefc8bdb447"
+      ],
+      "confidence": "HIGH",
+      "status": "SOURCE_CONTEXT",
+      "notes": "Identification context only."
+    },
+    {
+      "entity_id": "SPECIFIC_25a0ecfaa03d",
+      "entity_type": "SPECIFICATION",
+      "canonical_name": "Motor: 2 X 75hp",
+      "aliases": [
+        "2 X 75hp"
+      ],
+      "source_ids": [
+        "DOC_54f32efc6a02"
+      ],
+      "source_pages": [
+        2
+      ],
+      "evidence_ids": [
+        "EV_bbefc8bdb447"
+      ],
+      "confidence": "HIGH",
+      "status": "SOURCE_CONTEXT",
+      "notes": "Identification context only."
+    },
+    {
+      "entity_id": "SPECIFIC_63753b042ba7",
+      "entity_type": "SPECIFICATION",
+      "canonical_name": "Recommended oil: Grade 32",
+      "aliases": [
+        "Grade 32"
+      ],
+      "source_ids": [
+        "DOC_54f32efc6a02"
+      ],
+      "source_pages": [
+        2
+      ],
+      "evidence_ids": [
+        "EV_bbefc8bdb447"
+      ],
+      "confidence": "HIGH",
+      "status": "SOURCE_CONTEXT",
+      "notes": "Identification context only."
+    },
+    {
+      "entity_id": "SPECIFIC_80d3751d2e1b",
+      "entity_type": "SPECIFICATION",
+      "canonical_name": "Normal Pressure / Max: 5000(psi) (325 BAR)",
+      "aliases": [
+        "5000(psi) (325 BAR)"
+      ],
+      "source_ids": [
+        "DOC_54f32efc6a02"
+      ],
+      "source_pages": [
+        2
+      ],
+      "evidence_ids": [
+        "EV_bbefc8bdb447"
+      ],
+      "confidence": "HIGH",
+      "status": "SOURCE_CONTEXT",
+      "notes": "Identification context only."
+    }
+  ],
+  "role": "SOURCE_CONTEXT"
+}
