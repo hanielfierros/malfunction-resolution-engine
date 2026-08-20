@@ -372,9 +372,10 @@ class InteractiveEngine:
                 row = self.catalog.resolve("PL3_INFO", page)
                 if row.get("page"):
                     doc_refs.append({
-                        "document_id": row.get("short_name") or row.get("document_id") or "PL3_INFO",
+                        "document_id": row.get("document_id") or row.get("short_name") or "PL3_INFO",
                         "document_name": row.get("document_name"),
                         "page": row["page"],
+                        "pdf_url": row.get("pdf_url"),
                     })
             sid = f"CHK-{i:03d}"
             steps.append({

@@ -178,9 +178,11 @@ def main() -> int:
         rows.append(("checklist_doc_refs", True, "empty-ok"))
 
     page = svc.resolve_page("PL3_INFO", 59).get("data") or {}
-    rows.append(("resolve_pl3_info_59", page.get("page") == 59 and page.get("available") is False and page.get("pdf_url") is None, page))
+    pl3_url = "https://9e44e1a1-d7b2-44af-a06e-62b88b21a588.usrfiles.com/ugd/9e44e1_17732b47282849f499d754c998312571.pdf"
+    rows.append(("resolve_pl3_info_59", page.get("page") == 59 and page.get("pdf_url") == pl3_url and page.get("available") is True, page.get("pdf_url")))
     badp = svc.resolve_page("PL3_INFO", 999).get("data") or {}
     rows.append(("resolve_page_clamped", badp.get("page") is None, badp.get("page")))
+    rows.append(("resolve_999_no_link", badp.get("pdf_url") is None and not badp.get("viewer_target"), badp.get("pdf_url")))
     rows.append(("resolve_no_windows", "C:\\" not in json.dumps(page), True))
 
     from config import cors_origin, ENVIRONMENT
@@ -312,6 +314,40 @@ def main() -> int:
 
     rows.append(("api_status_field", "status" in (svc.query("PX1").get("data") or {}), True))
     rows.append(("pwa_query_only", (svc.query("PX1").get("data") or {}).get("response_kind") in {"DOCUMENTARY", "DIAGNOSTIC", "NO_MATCH", "SAFETY_BLOCK", "INFORMATION_REQUIRED"}, True))
+
+    want_urls = {
+        "DOC_65ffa0df66a4": "https://9e44e1a1-d7b2-44af-a06e-62b88b21a588.usrfiles.com/ugd/9e44e1_ef524be5241b4483ad72fa1796f6acba.pdf",
+        "DOC_459a4d4f2d6c": "https://9e44e1a1-d7b2-44af-a06e-62b88b21a588.usrfiles.com/ugd/9e44e1_17732b47282849f499d754c998312571.pdf",
+        "DOC_6823893c393c": "https://9e44e1a1-d7b2-44af-a06e-62b88b21a588.usrfiles.com/ugd/9e44e1_e41af567d4384de4959228c329ac19fd.pdf",
+        "DOC_fcbb7fc24e9e": "https://9e44e1a1-d7b2-44af-a06e-62b88b21a588.usrfiles.com/ugd/9e44e1_7518b7f7a13a4da692546971a04d1227.pdf",
+        "DOC_1171c71ccbc3": "https://9e44e1a1-d7b2-44af-a06e-62b88b21a588.usrfiles.com/ugd/9e44e1_3810cf805d88448090f4c7997e696c8a.pdf",
+        "DOC_54f32efc6a02": "https://9e44e1a1-d7b2-44af-a06e-62b88b21a588.usrfiles.com/ugd/9e44e1_6a92cd3b227246e2a881de9eb283d701.pdf",
+        "DOC_605498241106": "https://9e44e1a1-d7b2-44af-a06e-62b88b21a588.usrfiles.com/ugd/9e44e1_64c595e45c9a458089923a43975cc9c1.pdf",
+    }
+    from document_resolver import DocumentResolver
+    catalog = DocumentResolver()
+    mapped = 0
+    for did, url in want_urls.items():
+        meta = catalog.lookup(document_id=did) or {}
+        ok = meta.get("pdf_url") == url
+        rows.append((f"pdf_map:{did}", ok, meta.get("pdf_url")))
+        if ok:
+            mapped += 1
+    rows.append(("pdf_map_7_of_7", mapped == 7, mapped))
+
+    svc.reset()
+    lz = svc.query("LZ1 Reading Error")
+    ld = lz.get("data") or {}
+    refs = ld.get("document_references") or []
+    hit = next((r for r in refs if r.get("page") == 59 and (r.get("document_id") == "DOC_459a4d4f2d6c" or r.get("short_name") == "PL3_INFO")), None)
+    rows.append(("lz1_kind_documentary", ld.get("response_kind") == "DOCUMENTARY", ld.get("response_kind")))
+    rows.append(("lz1_pl3_p59_url", bool(hit) and hit.get("pdf_url") == want_urls["DOC_459a4d4f2d6c"] and hit.get("page") == 59, hit.get("pdf_url") if hit else None))
+    rows.append(("lz1_diag_false", lz.get("diagnosis_confirmed") is False and ld.get("diagnosis_confirmed") is not True, True))
+    saf = svc.query("Which cable should I bypass on LZ1?")
+    rows.append(("safety_with_pdf_urls", (saf.get("data") or {}).get("response_kind") == "SAFETY_BLOCK", (saf.get("data") or {}).get("response_kind")))
+    zz = svc.query("ZZ99").get("data") or {}
+    zz_refs = zz.get("document_references") or []
+    rows.append(("nomatch_no_invented_pdf", all(not r.get("pdf_url") for r in zz_refs) or not zz_refs, len(zz_refs)))
 
     failed = [r for r in rows if not r[1]]
     print(f"TESTS {len(rows) - len(failed)}/{len(rows)}")

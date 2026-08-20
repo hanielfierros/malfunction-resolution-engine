@@ -80,6 +80,8 @@ class DocumentResolver:
             url = None
         if url and ("C:" in url or "\\" in url or url.startswith("file:")):
             url = None
+        if page is not None and page_n is None:
+            url = None
         available = bool(url) and page_n is not None and meta is not None
         viewer = None
         if available:
