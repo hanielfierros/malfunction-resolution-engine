@@ -32,7 +32,12 @@ ALLOWED_ORIGINS = _origins()
 
 def cors_origin(request_origin: str | None) -> str:
     allowed = _origins()
-    if "*" in allowed:
+    if ENVIRONMENT == "production":
+        allowed = [
+            x for x in allowed
+            if x != "*" and "127.0.0.1" not in x and "localhost" not in x.lower()
+        ]
+    elif "*" in allowed:
         return "*"
     if request_origin and request_origin in allowed:
         return request_origin

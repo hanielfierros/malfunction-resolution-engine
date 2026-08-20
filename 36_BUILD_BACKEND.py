@@ -99,27 +99,95 @@ class BackendService:
         self.log.append({"response_id": body["response_id"], "status": status})
         return body
 
-    def query(self, text):
+    def query(self, text, extra=None):
         if text is None:
             return self._wrap({"error": "missing query"}, "error")
-        resp = self.conv.ask(str(text))
-        # strip filesystem paths
+        extra = extra or {}
+        resp = self.conv.ask(str(text), extra=extra)
+        refs = []
+        for r in (resp.get("document_references") or []):
+            if not r.get("document_name") or r.get("page") is None:
+                continue
+            url = r.get("pdf_url")
+            if isinstance(url, str) and (url.startswith("C:") or "\\" in url or url.startswith("file:")):
+                url = None
+            refs.append({
+                "document_id": r.get("document_id"),
+                "document_name": r.get("document_name"),
+                "official_name": r.get("official_name") or r.get("document_name"),
+                "page": r.get("page"),
+                "page_label": r.get("page_label") or ("p." + str(r.get("page")) if r.get("page") is not None else None),
+                "section": r.get("section"),
+                "pdf_url": url,
+                "available": bool(r.get("available")),
+                "availability": bool(r.get("available")),
+                "status": r.get("status") or r.get("hosting_status") or "PENDING_DOCUMENT_HOSTING",
+                "hosting_status": r.get("hosting_status") or "PENDING_DOCUMENT_HOSTING",
+                "reference_type": r.get("reference_type") or "official_documentation",
+                "source": r.get("source") or "official_documentation",
+                "relevance": r.get("relevance") or r.get("evidence_type") or "DOCUMENTARY_EVIDENCE",
+                "entity": r.get("entity"),
+                "evidence_type": r.get("evidence_type"),
+                "viewer_target": r.get("viewer_target"),
+            })
+        documents = []
+        if refs:
+            documents = [
+                {"document": r["document_name"], "page": r["page"],
+                 "entity": r.get("entity"), "evidence_type": r.get("evidence_type"),
+                 "document_id": r.get("document_id"), "pdf_url": r.get("pdf_url"),
+                 "hosting_status": r.get("hosting_status"),
+                 "reference_type": r.get("reference_type")}
+                for r in refs
+            ]
+        else:
+            for d in (resp.get("documents") or []):
+                if not d.get("document") or d.get("page") is None:
+                    continue
+                documents.append({
+                    "document": d.get("document"), "page": d.get("page"),
+                    "entity": d.get("entity"), "evidence_type": d.get("evidence_type"),
+                })
         safe = {
             "input": resp.get("input"),
             "resolved_query": resp.get("resolved_query"),
             "interpretation": resp.get("interpretation"),
             "response_kind": resp.get("response_kind"),
             "human_readable": resp.get("human_readable"),
+            "message": resp.get("message") or resp.get("human_readable"),
+            "case_id": resp.get("case_id") or self.conv.ix.case.id,
+            "questions": resp.get("questions") or [],
+            "hypotheses": resp.get("hypotheses") or [],
+            "checklist": resp.get("checklist") or [],
             "evidence_summary": resp.get("evidence_summary"),
-            "documents": [
-                {"document": d.get("document"), "page": d.get("page"),
-                 "entity": d.get("entity"), "evidence_type": d.get("evidence_type")}
-                for d in (resp.get("documents") or [])
-            ],
+            "documents": documents,
+            "document_references": refs,
+            "pages": [r["page"] for r in refs],
             "review_order": resp.get("review_order"),
             "conflicts": resp.get("conflicts"),
             "limitations": resp.get("limitations"),
             "context": resp.get("context"),
+            "external_sources": resp.get("external_sources") or [],
+            "safety": resp.get("safety") or {
+                "continuity_confirmed": False,
+                "diagnosis_confirmed": False,
+                "electrical_connection_confirmed": False,
+                "intervention_authorized": False,
+            },
+            "resolution_status": resp.get("resolution_status"),
+            "flags": {
+                "continuity_confirmed": False,
+                "diagnosis_confirmed": False,
+                "electrical_connection_confirmed": False,
+            },
+            "evidence_analysis": resp.get("evidence_analysis") or [],
+            "language": resp.get("language") or (extra or {}).get("language") or "en",
+            "observations": resp.get("observations") or [],
+            "evidence": resp.get("evidence") or extra.get("evidence") or [],
+            "external_references": resp.get("external_references") or resp.get("external_sources") or [],
+            "status": resp.get("status") or resp.get("resolution_status"),
+            "resolved": bool(resp.get("resolved")),
+            "external_research": resp.get("external_research") or "EXTERNAL_RESEARCH_PENDING",
             "continuity_confirmed": False,
             "diagnosis_confirmed": False,
             "electrical_connection_confirmed": False,
@@ -139,6 +207,7 @@ class BackendService:
             "current_entity": st.get("current_entity"),
             "current_alarm": st.get("current_alarm"),
             "turns": len(st.get("turns") or []),
+            "case_id": getattr(getattr(self.conv, "ix", None), "case", None) and self.conv.ix.case.id,
         })
 
     def get_entity(self, eid):
@@ -152,6 +221,11 @@ class BackendService:
             if a.get("entity_id") == aid or aid.lower() in (a.get("canonical_name") or "").lower():
                 return self._wrap(a)
         return self._wrap({"error": "not found"}, "not_found")
+
+    def resolve_page(self, did, page):
+        from document_resolver import DocumentResolver
+        row = DocumentResolver().resolve(document_id=did, document_name=did, page=page)
+        return self._wrap(row)
 
     def get_document(self, did):
         for d in self.docs:
@@ -207,8 +281,20 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, svc.get_entity(path.split("/", 2)[-1]))
         if path.startswith("/alarm/"):
             return self._send(200, svc.get_alarm(path.split("/", 2)[-1]))
+        if path.startswith("/document/") and "/page/" in path:
+            parts = [p for p in path.split("/") if p]
+            # document / {id} / page / {n}
+            did = parts[1] if len(parts) >= 4 else ""
+            pg = parts[3] if len(parts) >= 4 else ""
+            return self._send(200, svc.resolve_page(did, pg))
         if path.startswith("/document/"):
             return self._send(200, svc.get_document(path.split("/", 2)[-1]))
+        if path.startswith("/resolve/"):
+            # /resolve/{id}/{page}
+            parts = [p for p in path.split("/") if p]
+            did = parts[1] if len(parts) >= 3 else ""
+            pg = parts[2] if len(parts) >= 3 else ""
+            return self._send(200, svc.resolve_page(did, pg))
         if path.startswith("/page/"):
             return self._send(200, svc.get_page(path.split("/", 2)[-1]))
         return self._send(404, {"status": "error", "data": {"error": "not found"}})
@@ -223,7 +309,18 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(400, {"status": "error", "data": {"error": "invalid json"}})
         svc = service()
         if path == "/query":
-            return self._send(200, svc.query(body.get("query")))
+            extra = {
+                "case_id": body.get("case_id"),
+                "evidence": body.get("evidence") or [],
+                "conversation": body.get("conversation") or [],
+                "language": body.get("language") or body.get("lang") or "en",
+                "observation": body.get("observation"),
+                "observations": body.get("observations"),
+                "step_completed": body.get("step_completed") or body.get("completed_step"),
+                "issue_resolved": body.get("issue_resolved"),
+                "issue_persists": body.get("issue_persists"),
+            }
+            return self._send(200, svc.query(body.get("query"), extra=extra))
         if path == "/reset":
             return self._send(200, svc.reset())
         return self._send(404, {"status": "error", "data": {"error": "not found"}})

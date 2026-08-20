@@ -98,6 +98,8 @@ class QueryEngine:
         self.elec = recs(load(MASTER / "MASTER_ELECTRICAL_REFERENCES.json"))
         self.known_tags = {t.get("canonical_name") for t in self.tags if t.get("canonical_name")}
         self.alarm_norm = {norm(a.get("canonical_name")): a for a in self.alarms}
+        self.procedures = recs(load(MASTER / "MASTER_PROCEDURES.json"))
+        self.components = recs(load(MASTER / "MASTER_COMPONENTS.json"))
 
     def classify(self, text):
         n = norm(text)
@@ -155,7 +157,51 @@ class QueryEngine:
                 continue
             seen.add(eid)
             uniq.append(h)
+        if not uniq:
+            uniq = self._lexical_entities(text)
         return uniq
+
+    def _lexical_entities(self, text):
+        n = set(norm(text).split())
+        if not n:
+            return []
+        stop = {"the", "a", "an", "of", "and", "or", "is", "are", "to", "in", "on", "el", "la", "de", "un", "una"}
+        n -= stop
+        scored = []
+        for e in list(self.procedures) + list(self.alarms) + list(self.components):
+            cn = norm(e.get("canonical_name"))
+            if not cn:
+                continue
+            parts = set(cn.split()) - stop
+            ov = n & parts
+            if len(ov) < 1:
+                continue
+            if len(ov) == 1 and ov <= {"fault", "alarm", "error", "documented", "action"}:
+                continue
+            score = len(ov)
+            if cn in norm(text) and len(cn) >= 8:
+                score += 5
+            if score < 2 and "noisy" not in n and "motor" not in n and "fan" not in n and "pump" not in n:
+                continue
+            if any(x in n for x in ("noisy", "noise", "ruido")) and "noisy" in cn:
+                score += 4
+            if "motor" in n and "motor" in cn:
+                score += 3
+            if "fan" in n and "fan" in cn:
+                score += 3
+            if score < 2:
+                continue
+            scored.append((score, {
+                "entity_id": e.get("entity_id"),
+                "entity_type": e.get("entity_type"),
+                "canonical_name": e.get("canonical_name"),
+                "aliases": e.get("aliases") or [],
+                "source_ids": e.get("source_ids") or [],
+                "source_pages": e.get("source_pages") or [],
+                "evidence_ids": e.get("evidence_ids") or [],
+            }))
+        scored.sort(key=lambda x: -x[0])
+        return [h for _, h in scored[:10]]
 
     def rank_hit(self, hit, query):
         et = hit.get("entity_type")

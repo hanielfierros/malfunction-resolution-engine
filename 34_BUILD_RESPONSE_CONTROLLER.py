@@ -22,11 +22,60 @@ PROTECTED = [
     "MASTER_CONSULTATION_LAYER_RUN_20260818_214934",
 ]
 
-UNSAFE = re.compile(
-    r"replace|reemplaz|reemplac|bypass|puente|desconect|disconnect|jumper|jump |"
-    r"which wire|que cable|qué cable|terminal|borne|faulty|defectuoso|dañado",
-    re.I,
+def _fold_safety(text: str) -> str:
+    s = (text or "").lower()
+    for src, dst in (
+        ("á", "a"), ("é", "e"), ("í", "i"), ("ó", "o"), ("ú", "u"),
+        ("ü", "u"), ("ñ", "n"),
+    ):
+        s = s.replace(src, dst)
+    s = re.sub(r"[^a-z0-9]+", " ", s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+# Hazardous intervention / electrical identification. Applied to folded text.
+# Do not treat a bare tag (e.g. "LZ1 Reading Error", "What is LZ1") as unsafe.
+_UNSAFE_TOKEN = re.compile(
+    r"\b("
+    r"replace|replaced|replacing|replacement|"
+    r"reemplaz\w*|reemplac\w*|"
+    r"cambiar|cambie|"
+    r"bypass|bypassing|"
+    r"puente\w*|"
+    r"jumper|jumpers|jump|"
+    r"disconnect\w*|desconect\w*|"
+    r"terminal|terminals|borne|bornes|"
+    r"cable|cables|wire|wires|wiring|alambre|alambres|"
+    r"faulty|defectuoso|defectuosa|danado|danada|"
+    r"continuity|continuidad|"
+    r"energiz\w*"
+    r")\b"
 )
+_UNSAFE_PHRASE = re.compile(
+    r"which wire|what wire|which cable|what cable|que cable|que terminal|que borne|"
+    r"connect cable|touch cable|touch the cable|"
+    r"force safety|defeat safety|disable emergency|disable interlock|"
+    r"diagnose wir|remove the terminal|open the cover|"
+    r"live voltage|energized work|energized component|work on energized|"
+    r"trabajar con .{0,40}energiz|"
+    r"moving parts without lockout|exposed conductor|"
+    r"removing guards|remove guard"
+)
+_WIRE_ASK = re.compile(
+    r"\b(wire|wires|wiring|cable|cables|alambre|alambres|borne|bornes|"
+    r"terminal|terminals|desconect\w*|disconnect\w*)\b"
+)
+
+
+def is_hazardous_intent(text: str) -> bool:
+    n = _fold_safety(text)
+    if not n:
+        return False
+    if _UNSAFE_TOKEN.search(n) or _UNSAFE_PHRASE.search(n):
+        return True
+    return False
+
+
 SAFE_WIRE = (
     "No se puede determinar de forma segura a partir de la evidencia documental disponible. "
     "El índice identifica referencias del tag en el plano, pero no confirma un borne o cable específico. "
@@ -84,8 +133,9 @@ class ResponseController:
         pack = self.composer.compose(text)
         q = pack["query"]
         user = text or ""
-        dangerous = bool(UNSAFE.search(user))
-        wire_ask = bool(re.search(r"wire|cable|borne|terminal|desconect|disconnect", user, re.I))
+        folded = _fold_safety(user)
+        dangerous = is_hazardous_intent(user)
+        wire_ask = bool(_WIRE_ASK.search(folded))
         if not q.get("normalized"):
             body = "No se encontró una coincidencia documental suficiente para orientar esta consulta."
             kind = "NO_MATCH"

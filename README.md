@@ -8,9 +8,9 @@ This repository is the official backend that the PWA calls over HTTPS. The PWA m
 
 ## 1. What it is
 
-A documentary consultation engine for the Machinex Linear Baler PL3 / PL3Z / B-130 (project 6080241001). It looks up alarms, tags, symptoms, and free text against a validated consultation layer and returns documented pages, evidence types, and review routes.
+A documentary **and conversational** consultation engine for the Machinex Linear Baler PL3 / PL3Z / B-130 (project 6080241001). It looks up alarms, tags, symptoms, and free text against a validated consultation layer and returns documented pages, evidence types, review routes, follow-up questions, and conservative hypotheses.
 
-It is **not** a diagnostician. It does not confirm a failed part, electrical continuity, or authorization to work.
+It is **not** a confirming diagnostician. It does not confirm a failed part, electrical continuity, or authorization to work. UI strings can be requested in English, Spanish, or French (`language` on `/query`); official document names and tags are not translated. PDF `pdf_url` remains unset until HTTPS hosting exists.
 
 ## 2. Purpose
 

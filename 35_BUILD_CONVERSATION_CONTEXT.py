@@ -70,9 +70,13 @@ class Conversation:
     def __init__(self):
         m = import_mod(V13 / "34_BUILD_RESPONSE_CONTROLLER.py", "rc34")
         self.ctl = m.ResponseController()
+        ix = import_mod(V13 / "interactive_diagnostics.py", "ixdiag")
+        self.ix = ix.InteractiveEngine()
         self.reset()
 
     def reset(self):
+        if getattr(self, "ix", None) is not None:
+            self.ix.reset()
         self.state = {
             "current_entity": None,
             "current_alarm": None,
@@ -98,9 +102,15 @@ class Conversation:
             return f"{self.state['current_alarm']} {t}"
         return t
 
-    def ask(self, text):
+    def ask(self, text, extra=None):
         resolved = self.resolve(text)
         resp = self.ctl.respond(resolved)
+        extra = extra or {}
+        ev = extra.get("evidence") or []
+        if any(str((e or {}).get("type") or "").lower() in {"audio"} for e in ev):
+            extra = dict(extra)
+            extra["audio_hint"] = True
+        resp = self.ix.apply(text, resp, extra=extra)
         q = resp["package"]["query"]
         hits = q.get("hits") or []
         tag = next((h.get("canonical_name") for h in hits if h.get("entity_type") == "TAG"), None)

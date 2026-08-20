@@ -123,7 +123,7 @@ class EvidenceComposer:
                     secondary.append(ev)
                 else:
                     supporting.append(ev)
-                if ev.get("page") is not None:
+                if ev.get("page") is not None and ev.get("document"):
                     routes.append({
                         "document": ev.get("document"),
                         "page": ev.get("page"),
@@ -131,23 +131,23 @@ class EvidenceComposer:
                         "evidence_type": rk,
                     })
             for p in hit.get("source_pages") or []:
-                routes.append({
-                    "document": None,
-                    "page": p,
-                    "entity": hit.get("canonical_name"),
-                    "evidence_type": hit.get("match_rank"),
-                })
+                docname = ev.get("document") if False else None
+                # Keep page only when a document name exists on the hit evidence; never invent a filename.
+                if docname and p is not None:
+                    routes.append({
+                        "document": docname,
+                        "page": p,
+                        "entity": hit.get("canonical_name"),
+                        "evidence_type": hit.get("match_rank"),
+                    })
         # Fallback: documented tag pages from master TAG/ELECTRICAL entities.
         for tag in extra_keys:
             for t in self.qe.tags:
                 if (t.get("canonical_name") or "").upper() == str(tag).upper():
                     for p in t.get("source_pages") or []:
-                        routes.append({
-                            "document": "master_tag",
-                            "page": p,
-                            "entity": tag,
-                            "evidence_type": "DIRECT_TAG",
-                        })
+                        if p is None:
+                            continue
+                        # Do not emit a fake document name. Electrical pages are attached below.
             for e in self.qe.elec:
                 if (e.get("canonical_name") or "").upper() == str(tag).upper():
                     for p in e.get("source_pages") or []:
